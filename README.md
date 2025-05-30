@@ -63,6 +63,17 @@ Implements TSP solvers:
 - Marker IDs are cross-validated against those defined in `world.yaml` generated from the scenario configuration.
 
 ## Results Summary
+## Trajectory Visualizations per Scenario
+
+| Nearest Neighbor | Nearest Neighbor | Nearest Neighbor | Nearest Neighbor |
+|------------------|------------------|------------------|------------------|
+| <img src="images/NN_S1.png" width="200"/> | <img src="images/NN_S2.png" width="200"/> | <img src="images/NN_S3.png" width="200"/> | <img src="images/NN_S4.png" width="200"/> |
+| **Scenario 1** | **Scenario 2** | **Scenario 3** | **Scenario 4** |
+
+| Ant Colony | Ant Colony | Ant Colony | Ant Colony |
+|------------|------------|------------|------------|
+| <img src="images/AC_S1.png" width="200"/> | <img src="images/AC_S2.png" width="200"/> | <img src="images/AC_S3.png" width="200"/> | <img src="images/AC_S4.png" width="200"/> |
+| **Scenario 1** | **Scenario 2** | **Scenario 3** | **Scenario 4** |
 
 
 
