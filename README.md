@@ -67,12 +67,12 @@ Implements TSP solvers:
 | Nearest Neighbor | Nearest Neighbor | Nearest Neighbor | Nearest Neighbor |
 |------------------|------------------|------------------|------------------|
 | <img src="images/NN_S1.png" width="250"/> | <img src="images/NN_S2.png" width="250"/> | <img src="images/NN_S3.png" width="250"/> | <img src="images/NN_S4.png" width="250"/> |
-| **Scenario 1** | **Scenario 2** | **Scenario 3** | **Scenario 4** |
+| <p align="center"><strong>Scenario 1</strong></p> | <p align="center"><strong>Scenario 2</strong></p> | <p align="center"><strong>Scenario 3</strong></p> | <p align="center"><strong>Scenario 4</strong></p> |
 
 | Ant Colony | Ant Colony | Ant Colony | Ant Colony |
 |------------|------------|------------|------------|
 | <img src="images/AC_S1.png" width="250"/> | <img src="images/AC_S2.png" width="250"/> | <img src="images/AC_S3.png" width="250"/> | <img src="images/AC_S4.png" width="250"/> |
-| **Scenario 1** | **Scenario 2** | **Scenario 3** | **Scenario 4** |
+| <p align="center"><strong>Scenario 1</strong></p> | <p align="center"><strong>Scenario 2</strong></p> | <p align="center"><strong>Scenario 3</strong></p> | <p align="center"><strong>Scenario 4</strong></p> |
 
 
 | Scenario | Algorithm | Distance (m) | Duration (s) | Avg Speed (m/s) |
