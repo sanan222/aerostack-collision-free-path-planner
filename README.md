@@ -64,8 +64,11 @@ Implements TSP solvers:
 
 ## Results Summary
 
-![NN Results](images/NN_results.png)
-![AC Results](images/AC_results.png)
+<p align="center">
+  <img src="images/NN_results.png" alt="NN Results" width="300"/>
+  <img src="images/AC_results.png" alt="AC Results" width="300"/>
+</p>
+
 
 | Scenario | Algorithm | Distance (m) | Duration (s) | Avg Speed (m/s) |
 |----------|-----------|--------------|--------------|-----------------|
