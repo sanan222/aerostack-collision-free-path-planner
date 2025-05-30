@@ -4,6 +4,8 @@
 
 This project addresses the structural inspection path-planning problem using autonomous aerial robots. The goal is to optimize the inspection route to minimize energy consumption, total distance, and mission duration while safely navigating obstacles and detecting ArUco markers at designated viewpoints.
 
+Video demonstration of the project can be found [here](https://youtu.be/b41qtKMcLnA)
+
 ### Key Objectives:
 - Plan efficient routes to visit all viewpoints.
 - Use combinatorial optimization for global path planning.
