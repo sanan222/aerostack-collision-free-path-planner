@@ -64,6 +64,9 @@ Implements TSP solvers:
 
 ## Results Summary
 
+![NN Results](images/NN_results.png)
+![AC Results](images/AC_results.png)
+
 | Scenario | Algorithm | Distance (m) | Duration (s) | Avg Speed (m/s) |
 |----------|-----------|--------------|--------------|-----------------|
 | 1        | NN        | 66.55        | 65.15        | 1.02            |
