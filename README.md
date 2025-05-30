@@ -64,17 +64,17 @@ Implements TSP solvers:
 
 | Scenario | Algorithm | Distance (m) | Duration (s) | Avg Speed (m/s) |
 |----------|-----------|--------------|--------------|-----------------|
-| 1        | HN        | 66.55        | 65.15        | 1.02            |
+| 1        | NN        | 66.55        | 65.15        | 1.02            |
 | 1        | AC        | 60.29        | 63.84        | 0.94            |
-| 2        | HN        | 67.51        | 73.71        | 0.92            |
+| 2        | NN        | 67.51        | 73.71        | 0.92            |
 | 2        | AC        | 60.77        | 66.83        | 0.91            |
-| 3        | HN        | 99.56        | 117.03       | 0.85            |
+| 3        | NN        | 99.56        | 117.03       | 0.85            |
 | 3        | AC        | 83.61        | 105.55       | 0.79            |
-| 4        | HN        | 53.00        | 56.24        | 0.94            |
+| 4        | NN        | 53.00        | 56.24        | 0.94            |
 | 4        | AC        | 58.48        | 71.21        | 0.82            |
 
-- Ant Colony Optimization performs better in complex scenarios.
-- Nearest Neighbor is more effective in simpler environments with fewer obstacles.
+- Ant Colony (AC) Optimization performs better in complex scenarios.
+- Nearest Neighbor (NN) is more effective in simpler environments with fewer obstacles.
 
 ## Advanced Notes
 
