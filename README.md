@@ -1,4 +1,4 @@
-# Collision-free Path Planning for Drones (Aerostack Implementation)
+# Structural Inspection Path Planning for Drones (Aerostack Implementation)
 
 ## Overview
 
