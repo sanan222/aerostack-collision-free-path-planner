@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/crazyflie_cpp-build",
+		"source" : "/mission_planning_ws/src/build/as2_platform_crazyflie/_deps/crazyflie_cpp-src"
+	}
+}

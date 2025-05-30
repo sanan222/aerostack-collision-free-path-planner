@@ -1,0 +1,49 @@
+[1.230s] Invoking command in '/mission_planning_ws/src/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_gazebo_assets:/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_gazebo_assets:/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${CMAKE_PREFIX_PATH} GZ_SIM_RESOURCE_PATH=/mission_planning_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/worlds:/mission_planning_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/models:${GZ_SIM_RESOURCE_PATH} GZ_SIM_SYSTEM_PLUGIN_PATH=/mission_planning_ws/install/as2_gazebo_assets/lib:${GZ_SIM_SYSTEM_PLUGIN_PATH} GZ_VERSION=@GZ_VERSION@ LD_LIBRARY_PATH=/mission_planning_ws/install/as2_gazebo_assets/lib:/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/build/as2_visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages:/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/as2_visualization build --build-base /mission_planning_ws/build/as2_visualization/build install --record /mission_planning_ws/build/as2_visualization/install.log --single-version-externally-managed install_data
+[1.581s] running egg_info
+[1.581s] creating ../../../../../build/as2_visualization/as2_visualization.egg-info
+[1.582s] writing ../../../../../build/as2_visualization/as2_visualization.egg-info/PKG-INFO
+[1.582s] writing dependency_links to ../../../../../build/as2_visualization/as2_visualization.egg-info/dependency_links.txt
+[1.582s] writing entry points to ../../../../../build/as2_visualization/as2_visualization.egg-info/entry_points.txt
+[1.582s] writing requirements to ../../../../../build/as2_visualization/as2_visualization.egg-info/requires.txt
+[1.582s] writing top-level names to ../../../../../build/as2_visualization/as2_visualization.egg-info/top_level.txt
+[1.582s] writing manifest file '../../../../../build/as2_visualization/as2_visualization.egg-info/SOURCES.txt'
+[1.586s] reading manifest file '../../../../../build/as2_visualization/as2_visualization.egg-info/SOURCES.txt'
+[1.587s] writing manifest file '../../../../../build/as2_visualization/as2_visualization.egg-info/SOURCES.txt'
+[1.587s] running build
+[1.588s] running build_py
+[1.588s] creating /mission_planning_ws/build/as2_visualization/build
+[1.588s] creating /mission_planning_ws/build/as2_visualization/build/lib
+[1.588s] creating /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization
+[1.588s] copying as2_visualization/__init__.py -> /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization
+[1.588s] copying as2_visualization/marker_publisher.py -> /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization
+[1.589s] copying as2_visualization/geozones_marker_publisher.py -> /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization
+[1.589s] copying as2_visualization/gate_publisher.py -> /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization
+[1.590s] running install
+[1.590s] running install_lib
+[1.591s] creating /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[1.591s] copying /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization/__init__.py -> /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[1.591s] copying /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization/marker_publisher.py -> /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[1.592s] copying /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization/geozones_marker_publisher.py -> /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[1.592s] copying /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization/gate_publisher.py -> /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+[1.593s] byte-compiling /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/__init__.py to __init__.cpython-310.pyc
+[1.593s] byte-compiling /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/marker_publisher.py to marker_publisher.cpython-310.pyc
+[1.595s] byte-compiling /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/geozones_marker_publisher.py to geozones_marker_publisher.cpython-310.pyc
+[1.596s] byte-compiling /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/gate_publisher.py to gate_publisher.cpython-310.pyc
+[1.596s] running install_data
+[1.597s] creating /mission_planning_ws/install/as2_visualization/share/ament_index
+[1.597s] creating /mission_planning_ws/install/as2_visualization/share/ament_index/resource_index
+[1.597s] creating /mission_planning_ws/install/as2_visualization/share/ament_index/resource_index/packages
+[1.597s] copying resource/as2_visualization -> /mission_planning_ws/install/as2_visualization/share/ament_index/resource_index/packages
+[1.597s] copying package.xml -> /mission_planning_ws/install/as2_visualization/share/as2_visualization
+[1.597s] creating /mission_planning_ws/install/as2_visualization/share/as2_visualization/launch
+[1.597s] copying launch/swarm_viz.launch.py -> /mission_planning_ws/install/as2_visualization/share/as2_visualization/launch
+[1.598s] copying launch/as2_visualization.launch.py -> /mission_planning_ws/install/as2_visualization/share/as2_visualization/launch
+[1.598s] creating /mission_planning_ws/install/as2_visualization/share/as2_visualization/config
+[1.598s] copying config/as2_default.rviz -> /mission_planning_ws/install/as2_visualization/share/as2_visualization/config
+[1.599s] running install_egg_info
+[1.602s] Copying ../../../../../build/as2_visualization/as2_visualization.egg-info to /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization-1.1.2-py3.10.egg-info
+[1.603s] running install_scripts
+[1.642s] Installing gate_publisher script to /mission_planning_ws/install/as2_visualization/lib/as2_visualization
+[1.642s] Installing marker_publisher script to /mission_planning_ws/install/as2_visualization/lib/as2_visualization
+[1.643s] writing list of installed files to '/mission_planning_ws/build/as2_visualization/install.log'
+[1.682s] Invoked command in '/mission_planning_ws/src/aerostack2/as2_user_interfaces/as2_visualization/as2_visualization' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_gazebo_assets:/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_gazebo_assets:/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${CMAKE_PREFIX_PATH} GZ_SIM_RESOURCE_PATH=/mission_planning_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/worlds:/mission_planning_ws/install/as2_gazebo_assets/share/as2_ign_gazebo_assets/models:${GZ_SIM_RESOURCE_PATH} GZ_SIM_SYSTEM_PLUGIN_PATH=/mission_planning_ws/install/as2_gazebo_assets/lib:${GZ_SIM_SYSTEM_PLUGIN_PATH} GZ_VERSION=@GZ_VERSION@ LD_LIBRARY_PATH=/mission_planning_ws/install/as2_gazebo_assets/lib:/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/build/as2_visualization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages:/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/as2_visualization build --build-base /mission_planning_ws/build/as2_visualization/build install --record /mission_planning_ws/build/as2_visualization/install.log --single-version-externally-managed install_data

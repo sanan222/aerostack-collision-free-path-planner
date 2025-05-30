@@ -1,0 +1,160 @@
+[0.029s] Invoking command in '/mission_planning_ws/build/as2_platform_multirotor_simulator': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mission_planning_ws/src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator -DCMAKE_INSTALL_PREFIX=/mission_planning_ws/install/as2_platform_multirotor_simulator
+[0.083s] -- The C compiler identification is GNU 11.4.0
+[0.143s] -- The CXX compiler identification is GNU 11.4.0
+[0.153s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.249s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.342s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.342s] -- Detecting CXX compile features
+[0.342s] -- Detecting CXX compile features - done
+[0.351s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.541s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.791s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.940s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.963s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.992s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.019s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.066s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.192s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.207s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.392s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.445s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.527s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.564s] -- Looking for pthread.h
+[1.662s] -- Looking for pthread.h - found
+[1.662s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.756s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.759s] -- Found Threads: TRUE  
+[1.855s] -- Found as2_core: 1.1.2 (/mission_planning_ws/install/as2_core/share/as2_core/cmake)
+[2.127s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.129s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.129s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.434s] -- multirotor_simulator not found
+[7.731s] -- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.11.0")  
+[7.835s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.411s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.495s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.509s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.517s] -- Configured cppcheck include dirs: /mission_planning_ws/src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator/include;/mission_planning_ws/src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator/include/as2_platform_multirotor_simulator;/mission_planning_ws/src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator/{EIGEN3_INCLUDE_DIRS}
+[8.517s] -- Configured cppcheck exclude dirs and/or files: 
+[8.517s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.518s] -- Configured cpplint exclude dirs and/or files: 
+[8.519s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.525s] -- Added test 'lint_cmake' to check CMake code style
+[8.525s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.527s] -- Added test 'uncrustify' to check C / C++ code style
+[8.527s] -- Configured uncrustify additional arguments: 
+[8.529s] -- Added test 'xmllint' to check XML markup files
+[8.535s] -- Configuring done
+[8.693s] -- Generating done
+[8.753s] -- Build files have been written to: /mission_planning_ws/build/as2_platform_multirotor_simulator
+[8.821s] Invoked command in '/mission_planning_ws/build/as2_platform_multirotor_simulator' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mission_planning_ws/src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator -DCMAKE_INSTALL_PREFIX=/mission_planning_ws/install/as2_platform_multirotor_simulator
+[8.822s] Invoking command in '/mission_planning_ws/build/as2_platform_multirotor_simulator': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mission_planning_ws/build/as2_platform_multirotor_simulator -- -j22 -l22
+[9.858s] [  2%] [32m[1mLinking CXX shared library libpid_controller.so[0m
+[9.893s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[9.910s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[10.623s] [  6%] Built target pid_controller
+[10.939s] [  8%] [32mBuilding CXX object _deps/multirotor_simulator-build/tests/CMakeFiles/multirotor_simulator_dynamics_gtest.dir/multirotor_dynamic_model/multirotor_dynamic_model/dynamics_gtest.cpp.o[0m
+[11.051s] [ 10%] [32mBuilding CXX object _deps/multirotor_simulator-build/tests/CMakeFiles/multirotor_simulator_utils_gtest.dir/multirotor_dynamic_model/common/utils_gtest.cpp.o[0m
+[11.082s] [ 12%] [32mBuilding CXX object CMakeFiles/as2_platform_multirotor_simulator_node.dir/src/as2_platform_multirotor_simulator_node.cpp.o[0m
+[11.086s] [ 14%] [32mBuilding CXX object CMakeFiles/as2_platform_multirotor_simulator_node.dir/src/as2_platform_multirotor_simulator.cpp.o[0m
+[11.101s] [ 16%] [32mBuilding CXX object _deps/multirotor_simulator-build/pid_controller/tests/CMakeFiles/pid_controller_pid_1d_gtest.dir/pid_1d_test/pid_1d_gtest.cpp.o[0m
+[11.129s] [ 18%] [32mBuilding CXX object _deps/multirotor_simulator-build/pid_controller/tests/CMakeFiles/pid_controller_saturate_output_gtest.dir/pid_test/saturate_output_gtest.cpp.o[0m
+[11.143s] [ 20%] [32mBuilding CXX object CMakeFiles/as2_platform_multirotor_simulator.dir/src/as2_platform_multirotor_simulator.cpp.o[0m
+[11.190s] [ 22%] [32mBuilding CXX object _deps/multirotor_simulator-build/pid_controller/tests/CMakeFiles/pid_controller_pid_gtest.dir/pid_test/pid_gtest.cpp.o[0m
+[11.251s] [ 25%] [32mBuilding CXX object _deps/multirotor_simulator-build/tests/CMakeFiles/multirotor_simulator_position_controller_gtest.dir/multirotor_controllers/controllers/position_controller_gtest.cpp.o[0m
+[11.251s] [ 27%] [32mBuilding CXX object _deps/multirotor_simulator-build/tests/CMakeFiles/multirotor_simulator_state_gtest.dir/multirotor_dynamic_model/common/state_gtest.cpp.o[0m
+[11.346s] [ 29%] [32mBuilding CXX object _deps/multirotor_simulator-build/tests/CMakeFiles/multirotor_simulator_multirotor_controllers_gtest.dir/multirotor_controllers/multirotor_controllers_gtest.cpp.o[0m
+[11.440s] [ 31%] [32mBuilding CXX object _deps/multirotor_simulator-build/tests/CMakeFiles/multirotor_simulator_multirotor_simulator_fly_gtest.dir/multirotor_simulator/multirotor_simulator_fly_gtest.cpp.o[0m
+[11.452s] [ 33%] [32mBuilding CXX object _deps/multirotor_simulator-build/tests/CMakeFiles/multirotor_simulator_imu_gtest.dir/imu_simulator/imu_gtest.cpp.o[0m
+[11.487s] [ 35%] [32mBuilding CXX object _deps/multirotor_simulator-build/tests/CMakeFiles/multirotor_simulator_acro_controller_gtest.dir/multirotor_controllers/controllers/acro_controller_gtest.cpp.o[0m
+[11.510s] [ 37%] [32mBuilding CXX object _deps/multirotor_simulator-build/tests/CMakeFiles/multirotor_simulator_inertial_odometry_gtest.dir/imu_simulator/inertial_odometry_gtest.cpp.o[0m
+[11.520s] [ 39%] [32mBuilding CXX object _deps/multirotor_simulator-build/tests/CMakeFiles/multirotor_simulator_model_gtest.dir/multirotor_dynamic_model/multirotor_dynamic_model/model_gtest.cpp.o[0m
+[11.615s] [ 41%] [32mBuilding CXX object _deps/multirotor_simulator-build/tests/CMakeFiles/multirotor_simulator_multirotor_simulator_gtest.dir/multirotor_simulator/multirotor_simulator_gtest.cpp.o[0m
+[11.622s] [ 45%] [32mBuilding CXX object _deps/multirotor_simulator-build/tests/CMakeFiles/multirotor_simulator_velocity_controller_gtest.dir/multirotor_controllers/controllers/velocity_controller_gtest.cpp.o[0m
+[11.633s] [ 43%] [32mBuilding CXX object _deps/multirotor_simulator-build/tests/CMakeFiles/multirotor_simulator_indi_controller_gtest.dir/multirotor_controllers/controllers/indi_controller_gtest.cpp.o[0m
+[11.633s] [ 47%] [32mBuilding CXX object _deps/multirotor_simulator-build/tests/CMakeFiles/multirotor_simulator_trajectory_controller_gtest.dir/multirotor_controllers/controllers/trajectory_controller_gtest.cpp.o[0m
+[16.630s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[17.750s] [ 50%] Built target gtest_main
+[21.715s] [ 52%] [32m[1mLinking CXX executable multirotor_simulator_utils_gtest[0m
+[22.218s] [ 52%] Built target multirotor_simulator_utils_gtest
+[28.655s] [ 54%] [32m[1mLinking CXX executable pid_controller_saturate_output_gtest[0m
+[28.842s] [ 54%] Built target pid_controller_saturate_output_gtest
+[29.373s] [ 56%] [32m[1mLinking CXX executable multirotor_simulator_state_gtest[0m
+[29.803s] [ 56%] Built target multirotor_simulator_state_gtest
+[31.674s] [ 58%] [32m[1mLinking CXX executable multirotor_simulator_velocity_controller_gtest[0m
+[31.831s] [ 58%] Built target multirotor_simulator_velocity_controller_gtest
+[35.143s] [ 60%] [32m[1mLinking CXX executable multirotor_simulator_multirotor_controllers_gtest[0m
+[35.166s] [ 62%] [32m[1mLinking CXX executable multirotor_simulator_position_controller_gtest[0m
+[35.560s] [ 62%] Built target multirotor_simulator_position_controller_gtest
+[35.694s] [ 62%] Built target multirotor_simulator_multirotor_controllers_gtest
+[36.331s] [ 64%] [32m[1mLinking CXX executable pid_controller_pid_1d_gtest[0m
+[37.327s] [ 66%] [32m[1mLinking CXX executable multirotor_simulator_imu_gtest[0m
+[37.505s] [ 68%] [32m[1mLinking CXX executable pid_controller_pid_gtest[0m
+[37.748s] [ 68%] Built target pid_controller_pid_1d_gtest
+[37.748s] [ 68%] Built target multirotor_simulator_imu_gtest
+[37.996s] [ 68%] Built target pid_controller_pid_gtest
+[40.159s] [ 70%] [32m[1mLinking CXX executable multirotor_simulator_indi_controller_gtest[0m
+[40.440s] [ 70%] Built target multirotor_simulator_indi_controller_gtest
+[41.207s] [ 72%] [32m[1mLinking CXX executable multirotor_simulator_trajectory_controller_gtest[0m
+[41.874s] [ 72%] Built target multirotor_simulator_trajectory_controller_gtest
+[46.619s] [ 75%] [32m[1mLinking CXX executable multirotor_simulator_inertial_odometry_gtest[0m
+[47.100s] [ 75%] Built target multirotor_simulator_inertial_odometry_gtest
+[47.620s] [ 77%] [32m[1mLinking CXX executable multirotor_simulator_acro_controller_gtest[0m
+[48.117s] [ 77%] Built target multirotor_simulator_acro_controller_gtest
+[52.294s] [ 79%] [32m[1mLinking CXX executable multirotor_simulator_multirotor_simulator_fly_gtest[0m
+[52.978s] [ 79%] Built target multirotor_simulator_multirotor_simulator_fly_gtest
+[54.482s] [ 81%] [32m[1mLinking CXX static library libgtest.a[0m
+[54.648s] [ 81%] Built target gtest
+[55.452s] [ 83%] [32m[1mLinking CXX executable multirotor_simulator_dynamics_gtest[0m
+[55.816s] [ 83%] Built target multirotor_simulator_dynamics_gtest
+[56.999s] [ 85%] [32m[1mLinking CXX executable multirotor_simulator_model_gtest[0m
+[57.408s] [ 85%] Built target multirotor_simulator_model_gtest
+[61.201s] [ 87%] [32m[1mLinking CXX executable multirotor_simulator_multirotor_simulator_gtest[0m
+[61.393s] [ 87%] Built target multirotor_simulator_multirotor_simulator_gtest
+[77.250s] [ 89%] [32m[1mLinking CXX executable as2_platform_multirotor_simulator_node[0m
+[78.220s] [ 89%] Built target as2_platform_multirotor_simulator_node
+[80.295s] [ 91%] [32m[1mLinking CXX static library libas2_platform_multirotor_simulator.a[0m
+[80.367s] [ 91%] Built target as2_platform_multirotor_simulator
+[80.398s] [ 93%] [32mBuilding CXX object tests/CMakeFiles/as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_fly_gtest.dir/as2_platform_multirotor_simulator_fly_gtest.cpp.o[0m
+[92.619s] [ 95%] [32m[1mLinking CXX executable as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_fly_gtest[0m
+[93.693s] [ 95%] Built target as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_fly_gtest
+[93.727s] [ 97%] [32mBuilding CXX object tests/CMakeFiles/as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_gtest.dir/as2_platform_multirotor_simulator_gtest.cpp.o[0m
+[100.827s] [100%] [32m[1mLinking CXX executable as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_gtest[0m
+[101.805s] [100%] Built target as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_gtest
+[101.865s] Invoked command in '/mission_planning_ws/build/as2_platform_multirotor_simulator' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mission_planning_ws/build/as2_platform_multirotor_simulator -- -j22 -l22
+[101.868s] Invoking command in '/mission_planning_ws/build/as2_platform_multirotor_simulator': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mission_planning_ws/build/as2_platform_multirotor_simulator
+[101.879s] -- Install configuration: "Release"
+[101.880s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/include
+[101.880s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/include/as2_platform_multirotor_simulator
+[101.880s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/include/as2_platform_multirotor_simulator/as2_platform_multirotor_simulator.hpp
+[101.880s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/lib/as2_platform_multirotor_simulator/as2_platform_multirotor_simulator_node
+[101.884s] -- Set runtime path of "/mission_planning_ws/install/as2_platform_multirotor_simulator/lib/as2_platform_multirotor_simulator/as2_platform_multirotor_simulator_node" to ""
+[101.884s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/lib/libas2_platform_multirotor_simulator.a
+[101.886s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/launch
+[101.887s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/launch/as2_platform_multirotor_simulator.launch.py
+[101.888s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/config
+[101.888s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/config/control_modes.yaml
+[101.888s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/config/platform_config_file.yaml
+[101.889s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/config/uav_config.yaml
+[101.889s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/config/world_config.yaml
+[101.889s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/ament_index/resource_index/package_run_dependencies/as2_platform_multirotor_simulator
+[101.890s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/ament_index/resource_index/parent_prefix_path/as2_platform_multirotor_simulator
+[101.890s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/environment/ament_prefix_path.sh
+[101.890s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/environment/ament_prefix_path.dsv
+[101.890s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/environment/path.sh
+[101.890s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/environment/path.dsv
+[101.891s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/local_setup.bash
+[101.891s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/local_setup.sh
+[101.891s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/local_setup.zsh
+[101.891s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/local_setup.dsv
+[101.891s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/package.dsv
+[101.892s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/ament_index/resource_index/packages/as2_platform_multirotor_simulator
+[101.892s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/cmake/as2_platform_multirotor_simulatorConfig.cmake
+[101.892s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/cmake/as2_platform_multirotor_simulatorConfig-version.cmake
+[101.892s] -- Installing: /mission_planning_ws/install/as2_platform_multirotor_simulator/share/as2_platform_multirotor_simulator/package.xml
+[101.897s] Invoked command in '/mission_planning_ws/build/as2_platform_multirotor_simulator' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mission_planning_ws/build/as2_platform_multirotor_simulator

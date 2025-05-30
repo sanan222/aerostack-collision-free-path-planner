@@ -1,0 +1,47 @@
+running egg_info
+creating ../../../../../build/as2_visualization/as2_visualization.egg-info
+writing ../../../../../build/as2_visualization/as2_visualization.egg-info/PKG-INFO
+writing dependency_links to ../../../../../build/as2_visualization/as2_visualization.egg-info/dependency_links.txt
+writing entry points to ../../../../../build/as2_visualization/as2_visualization.egg-info/entry_points.txt
+writing requirements to ../../../../../build/as2_visualization/as2_visualization.egg-info/requires.txt
+writing top-level names to ../../../../../build/as2_visualization/as2_visualization.egg-info/top_level.txt
+writing manifest file '../../../../../build/as2_visualization/as2_visualization.egg-info/SOURCES.txt'
+reading manifest file '../../../../../build/as2_visualization/as2_visualization.egg-info/SOURCES.txt'
+writing manifest file '../../../../../build/as2_visualization/as2_visualization.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mission_planning_ws/build/as2_visualization/build
+creating /mission_planning_ws/build/as2_visualization/build/lib
+creating /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization
+copying as2_visualization/__init__.py -> /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization
+copying as2_visualization/marker_publisher.py -> /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization
+copying as2_visualization/geozones_marker_publisher.py -> /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization
+copying as2_visualization/gate_publisher.py -> /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization
+running install
+running install_lib
+creating /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+copying /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization/__init__.py -> /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+copying /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization/marker_publisher.py -> /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+copying /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization/geozones_marker_publisher.py -> /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+copying /mission_planning_ws/build/as2_visualization/build/lib/as2_visualization/gate_publisher.py -> /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization
+byte-compiling /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/__init__.py to __init__.cpython-310.pyc
+byte-compiling /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/marker_publisher.py to marker_publisher.cpython-310.pyc
+byte-compiling /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/geozones_marker_publisher.py to geozones_marker_publisher.cpython-310.pyc
+byte-compiling /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization/gate_publisher.py to gate_publisher.cpython-310.pyc
+running install_data
+creating /mission_planning_ws/install/as2_visualization/share/ament_index
+creating /mission_planning_ws/install/as2_visualization/share/ament_index/resource_index
+creating /mission_planning_ws/install/as2_visualization/share/ament_index/resource_index/packages
+copying resource/as2_visualization -> /mission_planning_ws/install/as2_visualization/share/ament_index/resource_index/packages
+copying package.xml -> /mission_planning_ws/install/as2_visualization/share/as2_visualization
+creating /mission_planning_ws/install/as2_visualization/share/as2_visualization/launch
+copying launch/swarm_viz.launch.py -> /mission_planning_ws/install/as2_visualization/share/as2_visualization/launch
+copying launch/as2_visualization.launch.py -> /mission_planning_ws/install/as2_visualization/share/as2_visualization/launch
+creating /mission_planning_ws/install/as2_visualization/share/as2_visualization/config
+copying config/as2_default.rviz -> /mission_planning_ws/install/as2_visualization/share/as2_visualization/config
+running install_egg_info
+Copying ../../../../../build/as2_visualization/as2_visualization.egg-info to /mission_planning_ws/install/as2_visualization/lib/python3.10/site-packages/as2_visualization-1.1.2-py3.10.egg-info
+running install_scripts
+Installing gate_publisher script to /mission_planning_ws/install/as2_visualization/lib/as2_visualization
+Installing marker_publisher script to /mission_planning_ws/install/as2_visualization/lib/as2_visualization
+writing list of installed files to '/mission_planning_ws/build/as2_visualization/install.log'

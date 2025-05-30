@@ -1,0 +1,15 @@
+/mission_planning_ws/src/install/as2_cli/share/ament_index/resource_index/package_run_dependencies/as2_cli
+/mission_planning_ws/src/install/as2_cli/share/ament_index/resource_index/parent_prefix_path/as2_cli
+/mission_planning_ws/src/install/as2_cli/share/as2_cli/environment/ament_prefix_path.sh
+/mission_planning_ws/src/install/as2_cli/share/as2_cli/environment/ament_prefix_path.dsv
+/mission_planning_ws/src/install/as2_cli/share/as2_cli/environment/path.sh
+/mission_planning_ws/src/install/as2_cli/share/as2_cli/environment/path.dsv
+/mission_planning_ws/src/install/as2_cli/share/as2_cli/local_setup.bash
+/mission_planning_ws/src/install/as2_cli/share/as2_cli/local_setup.sh
+/mission_planning_ws/src/install/as2_cli/share/as2_cli/local_setup.zsh
+/mission_planning_ws/src/install/as2_cli/share/as2_cli/local_setup.dsv
+/mission_planning_ws/src/install/as2_cli/share/as2_cli/package.dsv
+/mission_planning_ws/src/install/as2_cli/share/ament_index/resource_index/packages/as2_cli
+/mission_planning_ws/src/install/as2_cli/share/as2_cli/cmake/as2_cliConfig.cmake
+/mission_planning_ws/src/install/as2_cli/share/as2_cli/cmake/as2_cliConfig-version.cmake
+/mission_planning_ws/src/install/as2_cli/share/as2_cli/package.xml

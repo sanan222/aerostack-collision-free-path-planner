@@ -1,0 +1,15 @@
+/mission_planning_ws/src/install/aerostack2/share/ament_index/resource_index/package_run_dependencies/aerostack2
+/mission_planning_ws/src/install/aerostack2/share/ament_index/resource_index/parent_prefix_path/aerostack2
+/mission_planning_ws/src/install/aerostack2/share/aerostack2/environment/ament_prefix_path.sh
+/mission_planning_ws/src/install/aerostack2/share/aerostack2/environment/ament_prefix_path.dsv
+/mission_planning_ws/src/install/aerostack2/share/aerostack2/environment/path.sh
+/mission_planning_ws/src/install/aerostack2/share/aerostack2/environment/path.dsv
+/mission_planning_ws/src/install/aerostack2/share/aerostack2/local_setup.bash
+/mission_planning_ws/src/install/aerostack2/share/aerostack2/local_setup.sh
+/mission_planning_ws/src/install/aerostack2/share/aerostack2/local_setup.zsh
+/mission_planning_ws/src/install/aerostack2/share/aerostack2/local_setup.dsv
+/mission_planning_ws/src/install/aerostack2/share/aerostack2/package.dsv
+/mission_planning_ws/src/install/aerostack2/share/ament_index/resource_index/packages/aerostack2
+/mission_planning_ws/src/install/aerostack2/share/aerostack2/cmake/aerostack2Config.cmake
+/mission_planning_ws/src/install/aerostack2/share/aerostack2/cmake/aerostack2Config-version.cmake
+/mission_planning_ws/src/install/aerostack2/share/aerostack2/package.xml

@@ -1,0 +1,60 @@
+[1.268s] Invoking command in '/mission_planning_ws/src/aerostack2/as2_user_interfaces/as2_keyboard_teleoperation': AMENT_PREFIX_PATH=/mission_planning_ws/src/install/as2_python_api:/mission_planning_ws/src/install/as2_motion_reference_handlers:/mission_planning_ws/src/install/as2_core:/mission_planning_ws/src/install/as2_msgs:${AMENT_PREFIX_PATH} AS2_MODULES_PATH=/mission_planning_ws/src/install/as2_python_api/share/as2_python_api/modules:${AS2_MODULES_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/src/install/as2_motion_reference_handlers:/mission_planning_ws/src/install/as2_core:/mission_planning_ws/src/install/as2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/mission_planning_ws/src/install/as2_python_api/lib:/mission_planning_ws/src/install/as2_motion_reference_handlers/lib:/mission_planning_ws/src/install/as2_core/lib:/mission_planning_ws/src/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/src/build/as2_keyboard_teleoperation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages:/mission_planning_ws/src/install/as2_python_api/lib/python3.10/site-packages:/mission_planning_ws/src/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/src/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_keyboard_teleoperation build --build-base /mission_planning_ws/src/build/as2_keyboard_teleoperation/build install --record /mission_planning_ws/src/build/as2_keyboard_teleoperation/install.log --single-version-externally-managed install_data
+[3.909s] running egg_info
+[3.909s] creating ../../../build/as2_keyboard_teleoperation/as2_keyboard_teleoperation.egg-info
+[3.910s] writing ../../../build/as2_keyboard_teleoperation/as2_keyboard_teleoperation.egg-info/PKG-INFO
+[3.910s] writing dependency_links to ../../../build/as2_keyboard_teleoperation/as2_keyboard_teleoperation.egg-info/dependency_links.txt
+[3.910s] writing requirements to ../../../build/as2_keyboard_teleoperation/as2_keyboard_teleoperation.egg-info/requires.txt
+[3.910s] writing top-level names to ../../../build/as2_keyboard_teleoperation/as2_keyboard_teleoperation.egg-info/top_level.txt
+[3.910s] writing manifest file '../../../build/as2_keyboard_teleoperation/as2_keyboard_teleoperation.egg-info/SOURCES.txt'
+[3.910s] reading manifest file '../../../build/as2_keyboard_teleoperation/as2_keyboard_teleoperation.egg-info/SOURCES.txt'
+[3.910s] writing manifest file '../../../build/as2_keyboard_teleoperation/as2_keyboard_teleoperation.egg-info/SOURCES.txt'
+[3.910s] running build
+[3.910s] running build_py
+[3.910s] creating /mission_planning_ws/src/build/as2_keyboard_teleoperation/build
+[3.910s] creating /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib
+[3.910s] creating /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib/as2_keyboard_teleoperation
+[3.911s] copying as2_keyboard_teleoperation/__init__.py -> /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib/as2_keyboard_teleoperation
+[3.911s] copying as2_keyboard_teleoperation/keyboard_teleoperation.py -> /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib/as2_keyboard_teleoperation
+[3.911s] copying as2_keyboard_teleoperation/localization_window.py -> /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib/as2_keyboard_teleoperation
+[3.911s] copying as2_keyboard_teleoperation/main_window.py -> /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib/as2_keyboard_teleoperation
+[3.911s] copying as2_keyboard_teleoperation/settings_window.py -> /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib/as2_keyboard_teleoperation
+[3.911s] copying as2_keyboard_teleoperation/config_values.py -> /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib/as2_keyboard_teleoperation
+[3.911s] copying as2_keyboard_teleoperation/drone_manager.py -> /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib/as2_keyboard_teleoperation
+[3.911s] running install
+[3.911s] running install_lib
+[3.911s] creating /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation
+[3.912s] copying /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib/as2_keyboard_teleoperation/__init__.py -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation
+[3.912s] copying /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib/as2_keyboard_teleoperation/keyboard_teleoperation.py -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation
+[3.914s] copying /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib/as2_keyboard_teleoperation/localization_window.py -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation
+[3.914s] copying /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib/as2_keyboard_teleoperation/main_window.py -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation
+[3.914s] copying /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib/as2_keyboard_teleoperation/settings_window.py -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation
+[3.914s] copying /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib/as2_keyboard_teleoperation/config_values.py -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation
+[3.914s] copying /mission_planning_ws/src/build/as2_keyboard_teleoperation/build/lib/as2_keyboard_teleoperation/drone_manager.py -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation
+[3.916s] byte-compiling /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation/__init__.py to __init__.cpython-310.pyc
+[3.916s] byte-compiling /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation/keyboard_teleoperation.py to keyboard_teleoperation.cpython-310.pyc
+[3.916s] byte-compiling /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation/localization_window.py to localization_window.cpython-310.pyc
+[3.916s] byte-compiling /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation/main_window.py to main_window.cpython-310.pyc
+[3.916s] byte-compiling /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation/settings_window.py to settings_window.cpython-310.pyc
+[3.916s] byte-compiling /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation/config_values.py to config_values.cpython-310.pyc
+[3.916s] byte-compiling /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation/drone_manager.py to drone_manager.cpython-310.pyc
+[3.916s] running install_data
+[3.916s] creating /mission_planning_ws/src/install/as2_keyboard_teleoperation/share/ament_index
+[3.916s] creating /mission_planning_ws/src/install/as2_keyboard_teleoperation/share/ament_index/resource_index
+[3.917s] creating /mission_planning_ws/src/install/as2_keyboard_teleoperation/share/ament_index/resource_index/packages
+[3.917s] copying resource/as2_keyboard_teleoperation -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/share/ament_index/resource_index/packages
+[3.917s] copying package.xml -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation
+[3.917s] creating /mission_planning_ws/src/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation/launch
+[3.917s] copying launch/as2_keyboard_teleoperation_launch.py -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation/launch
+[3.917s] copying as2_keyboard_teleoperation/keyboard_teleoperation.py -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation
+[3.917s] copying as2_keyboard_teleoperation/drone_manager.py -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation
+[3.917s] copying as2_keyboard_teleoperation/main_window.py -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation
+[3.917s] copying as2_keyboard_teleoperation/settings_window.py -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation
+[3.917s] copying as2_keyboard_teleoperation/localization_window.py -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation
+[3.917s] copying as2_keyboard_teleoperation/config_values.py -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation
+[3.917s] creating /mission_planning_ws/src/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation/config
+[3.917s] copying config/teleop_values_config.yaml -> /mission_planning_ws/src/install/as2_keyboard_teleoperation/share/as2_keyboard_teleoperation/config
+[3.918s] running install_egg_info
+[3.918s] Copying ../../../build/as2_keyboard_teleoperation/as2_keyboard_teleoperation.egg-info to /mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages/as2_keyboard_teleoperation-1.1.2-py3.10.egg-info
+[3.918s] running install_scripts
+[3.918s] writing list of installed files to '/mission_planning_ws/src/build/as2_keyboard_teleoperation/install.log'
+[3.920s] Invoked command in '/mission_planning_ws/src/aerostack2/as2_user_interfaces/as2_keyboard_teleoperation' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/src/install/as2_python_api:/mission_planning_ws/src/install/as2_motion_reference_handlers:/mission_planning_ws/src/install/as2_core:/mission_planning_ws/src/install/as2_msgs:${AMENT_PREFIX_PATH} AS2_MODULES_PATH=/mission_planning_ws/src/install/as2_python_api/share/as2_python_api/modules:${AS2_MODULES_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/src/install/as2_motion_reference_handlers:/mission_planning_ws/src/install/as2_core:/mission_planning_ws/src/install/as2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/mission_planning_ws/src/install/as2_python_api/lib:/mission_planning_ws/src/install/as2_motion_reference_handlers/lib:/mission_planning_ws/src/install/as2_core/lib:/mission_planning_ws/src/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/src/build/as2_keyboard_teleoperation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mission_planning_ws/src/install/as2_keyboard_teleoperation/lib/python3.10/site-packages:/mission_planning_ws/src/install/as2_python_api/lib/python3.10/site-packages:/mission_planning_ws/src/install/as2_motion_reference_handlers/local/lib/python3.10/dist-packages:/mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/src/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/as2_keyboard_teleoperation build --build-base /mission_planning_ws/src/build/as2_keyboard_teleoperation/build install --record /mission_planning_ws/src/build/as2_keyboard_teleoperation/install.log --single-version-externally-managed install_data

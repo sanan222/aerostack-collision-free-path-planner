@@ -1,0 +1,230 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-4444e1484910f2b26377.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						8,
+						13
+					]
+				},
+				{
+					"build" : "tests",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-tests-Release-b01f6abb0ab61427ef3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						5,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "as2_core",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_as2_core_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_as2_core_egg-Release-300ff4dc42c61bdc3a97.json",
+					"name" : "ament_cmake_python_build_as2_core_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_as2_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_as2_core-Release-4c8186cfd23bee6ac3cb.json",
+					"name" : "ament_cmake_python_copy_as2_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_core-Release-aa968fc3d12f7da842a6.json",
+					"name" : "as2_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_core_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_core_uninstall-Release-6c5299a1e9ada5bc0f06.json",
+					"name" : "as2_core_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_names::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_names-Release-4f5f856aa4a9ecdfa2cf.json",
+					"name" : "as2_names",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "frame_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-frame_test-Release-babb27a7bd92c25ffd75.json",
+					"name" : "frame_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-6148041d304d7efc1c43.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-285492afb47d863e77c9.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocks-Release-bde3417dfd3340fc8ffe.json",
+					"name" : "mocks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "platform_state_machine_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-platform_state_machine_test-Release-6b8d1c4deb8beaab33af.json",
+					"name" : "platform_state_machine_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sensor_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-sensor_test-Release-3513e2090f47ed36590d.json",
+					"name" : "sensor_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tf2_namespace_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tf2_namespace_test-Release-d18876c7c4f86acbac95.json",
+					"name" : "tf2_namespace_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tf_utils_gtest::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tf_utils_gtest-Release-cbd3053141fbd5653859.json",
+					"name" : "tf_utils_gtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-030a20c59cbff1d21d43.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mission_planning_ws/build/as2_core",
+		"source" : "/mission_planning_ws/src/aerostack2/as2_core"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

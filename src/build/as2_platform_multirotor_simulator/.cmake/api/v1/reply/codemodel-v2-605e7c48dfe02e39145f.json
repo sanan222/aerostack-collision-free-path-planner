@@ -1,0 +1,682 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c2656d25cc00959e12e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						28,
+						31,
+						32,
+						53
+					]
+				},
+				{
+					"build" : "_deps/multirotor_simulator-build",
+					"childIndexes" : 
+					[
+						2,
+						4
+					],
+					"jsonFile" : "directory-_deps.multirotor_simulator-build-Release-8011a2dbb343009f123e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/mission_planning_ws/src/build/as2_platform_multirotor_simulator/_deps/multirotor_simulator-src"
+				},
+				{
+					"build" : "_deps/multirotor_simulator-build/pid_controller",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-_deps.multirotor_simulator-build.pid_controller-Release-4ff781e9b2940b091cb2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/mission_planning_ws/src/build/as2_platform_multirotor_simulator/_deps/multirotor_simulator-src/pid_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						49
+					]
+				},
+				{
+					"build" : "_deps/multirotor_simulator-build/pid_controller/tests",
+					"jsonFile" : "directory-_deps.multirotor_simulator-build.pid_controller.tests-Release-48b1835e1e720e11e8bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "/mission_planning_ws/src/build/as2_platform_multirotor_simulator/_deps/multirotor_simulator-src/pid_controller/tests",
+					"targetIndexes" : 
+					[
+						50,
+						51,
+						52
+					]
+				},
+				{
+					"build" : "_deps/multirotor_simulator-build/tests",
+					"jsonFile" : "directory-_deps.multirotor_simulator-build.tests-Release-dc76e76a595a0330fdde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/mission_planning_ws/src/build/as2_platform_multirotor_simulator/_deps/multirotor_simulator-src/tests",
+					"targetIndexes" : 
+					[
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
+					]
+				},
+				{
+					"build" : "tests",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-tests-Release-b01f6abb0ab61427ef3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						29,
+						30
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 3,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						33,
+						34
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						5
+					],
+					"name" : "as2_platform_multirotor_simulator",
+					"targetIndexes" : 
+					[
+						28,
+						29,
+						30,
+						31,
+						32,
+						53
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						4
+					],
+					"name" : "multirotor_simulator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "pid_controller",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						49,
+						50,
+						51,
+						52
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						33,
+						34
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Continuous::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-Continuous-Release-f59356303e9ef8ec87b9.json",
+					"name" : "Continuous",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousBuild::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ContinuousBuild-Release-d3b12a3f56d857345a96.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousConfigure::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ContinuousConfigure-Release-b8dac1193cb2b0022e61.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousCoverage::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ContinuousCoverage-Release-30845a9e2b51027248dd.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousMemCheck::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ContinuousMemCheck-Release-5910ea26f424023c7947.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousStart::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ContinuousStart-Release-f4c2e78f3034f65e79b6.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousSubmit::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ContinuousSubmit-Release-aa0d2261450c21732e97.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousTest::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ContinuousTest-Release-fd872e7bad801c2da4a9.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousUpdate::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ContinuousUpdate-Release-d5cd5011684cf8c107b6.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Experimental::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-Experimental-Release-3e2e578dfeeac503cd95.json",
+					"name" : "Experimental",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalBuild::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ExperimentalBuild-Release-5315e1df98bd7adb5ecb.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalConfigure::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ExperimentalConfigure-Release-be345e2f94da22fecaeb.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalCoverage::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ExperimentalCoverage-Release-795cf2c4c0d53f99a311.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalMemCheck::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ExperimentalMemCheck-Release-95dde077353437faa0d2.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalStart::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ExperimentalStart-Release-c163a04a2362ccb45cc4.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalSubmit::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ExperimentalSubmit-Release-cebfe5ecc3e5ece7249d.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalTest::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ExperimentalTest-Release-da1e3edb78ecf702d050.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalUpdate::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-ExperimentalUpdate-Release-4f9e8959dd5a1f3da11d.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Nightly::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-Nightly-Release-ee663698e48b92ceaf57.json",
+					"name" : "Nightly",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyBuild::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-NightlyBuild-Release-77cbd694b92ab179c998.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyConfigure::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-NightlyConfigure-Release-9c2d7acf81d5c2b9e60e.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyCoverage::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-NightlyCoverage-Release-2496ed1dec21e7c851f5.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemCheck::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-NightlyMemCheck-Release-37e9c7dce85f1fe80dab.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemoryCheck::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-NightlyMemoryCheck-Release-4e28d1078be92ea1bebf.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyStart::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-NightlyStart-Release-1bf078334572140632a1.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlySubmit::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-NightlySubmit-Release-9b4fcca3096978f2ed3a.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyTest::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-NightlyTest-Release-5816e15ddaadd7d7e5ce.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyUpdate::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-NightlyUpdate-Release-707c57bffed42c9903e3.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_platform_multirotor_simulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_platform_multirotor_simulator-Release-3869cbec028e9de48c02.json",
+					"name" : "as2_platform_multirotor_simulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_fly_gtest::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_fly_gtest-Release-5d2a63b1c5b2b6067347.json",
+					"name" : "as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_fly_gtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_gtest::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_gtest-Release-2600ba7532a30b584faa.json",
+					"name" : "as2_platform_multirotor_simulator_as2_platform_multirotor_simulator_gtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_platform_multirotor_simulator_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_platform_multirotor_simulator_node-Release-693f7cc413690770c4d0.json",
+					"name" : "as2_platform_multirotor_simulator_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_platform_multirotor_simulator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_platform_multirotor_simulator_uninstall-Release-a7982a59c397a764e9cb.json",
+					"name" : "as2_platform_multirotor_simulator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-54944baf4b7953337d37.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-f88ace244d5a9babc32e.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multirotor_simulator_acro_controller_gtest::@dbf9dddec36080f7ad46",
+					"jsonFile" : "target-multirotor_simulator_acro_controller_gtest-Release-5c322bac599842635243.json",
+					"name" : "multirotor_simulator_acro_controller_gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multirotor_simulator_dynamics_gtest::@dbf9dddec36080f7ad46",
+					"jsonFile" : "target-multirotor_simulator_dynamics_gtest-Release-ec4b1dd48433db76b9ef.json",
+					"name" : "multirotor_simulator_dynamics_gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multirotor_simulator_imu_gtest::@dbf9dddec36080f7ad46",
+					"jsonFile" : "target-multirotor_simulator_imu_gtest-Release-a3c7f9c7ffcba7475664.json",
+					"name" : "multirotor_simulator_imu_gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multirotor_simulator_indi_controller_gtest::@dbf9dddec36080f7ad46",
+					"jsonFile" : "target-multirotor_simulator_indi_controller_gtest-Release-f1d78374f2a22184c9af.json",
+					"name" : "multirotor_simulator_indi_controller_gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multirotor_simulator_inertial_odometry_gtest::@dbf9dddec36080f7ad46",
+					"jsonFile" : "target-multirotor_simulator_inertial_odometry_gtest-Release-5c2e5312ca8a631cf15d.json",
+					"name" : "multirotor_simulator_inertial_odometry_gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multirotor_simulator_model_gtest::@dbf9dddec36080f7ad46",
+					"jsonFile" : "target-multirotor_simulator_model_gtest-Release-30ca30c542e8789225c8.json",
+					"name" : "multirotor_simulator_model_gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multirotor_simulator_multirotor_controllers_gtest::@dbf9dddec36080f7ad46",
+					"jsonFile" : "target-multirotor_simulator_multirotor_controllers_gtest-Release-164fd1e3f102bef22c88.json",
+					"name" : "multirotor_simulator_multirotor_controllers_gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multirotor_simulator_multirotor_simulator_fly_gtest::@dbf9dddec36080f7ad46",
+					"jsonFile" : "target-multirotor_simulator_multirotor_simulator_fly_gtest-Release-4a888fa12014787cae3a.json",
+					"name" : "multirotor_simulator_multirotor_simulator_fly_gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multirotor_simulator_multirotor_simulator_gtest::@dbf9dddec36080f7ad46",
+					"jsonFile" : "target-multirotor_simulator_multirotor_simulator_gtest-Release-6c10c4f3833bbc121d42.json",
+					"name" : "multirotor_simulator_multirotor_simulator_gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multirotor_simulator_position_controller_gtest::@dbf9dddec36080f7ad46",
+					"jsonFile" : "target-multirotor_simulator_position_controller_gtest-Release-46d71fd9c6fb92526ce8.json",
+					"name" : "multirotor_simulator_position_controller_gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multirotor_simulator_state_gtest::@dbf9dddec36080f7ad46",
+					"jsonFile" : "target-multirotor_simulator_state_gtest-Release-6ab10395f3f3e8481575.json",
+					"name" : "multirotor_simulator_state_gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multirotor_simulator_trajectory_controller_gtest::@dbf9dddec36080f7ad46",
+					"jsonFile" : "target-multirotor_simulator_trajectory_controller_gtest-Release-bc13348a07e60aa7ff44.json",
+					"name" : "multirotor_simulator_trajectory_controller_gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multirotor_simulator_utils_gtest::@dbf9dddec36080f7ad46",
+					"jsonFile" : "target-multirotor_simulator_utils_gtest-Release-be88ef967651b2121050.json",
+					"name" : "multirotor_simulator_utils_gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "multirotor_simulator_velocity_controller_gtest::@dbf9dddec36080f7ad46",
+					"jsonFile" : "target-multirotor_simulator_velocity_controller_gtest-Release-956f1f6a89ef6fc6e721.json",
+					"name" : "multirotor_simulator_velocity_controller_gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pid_controller::@baf56f7a0ab6ff6c3e24",
+					"jsonFile" : "target-pid_controller-Release-9ae7956e46b75975d279.json",
+					"name" : "pid_controller",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "pid_controller_pid_1d_gtest::@937eca914ba1bed2e5fe",
+					"jsonFile" : "target-pid_controller_pid_1d_gtest-Release-607583c9f001296b38d7.json",
+					"name" : "pid_controller_pid_1d_gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "pid_controller_pid_gtest::@937eca914ba1bed2e5fe",
+					"jsonFile" : "target-pid_controller_pid_gtest-Release-5c4c9adf877d4e009fd8.json",
+					"name" : "pid_controller_pid_gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "pid_controller_saturate_output_gtest::@937eca914ba1bed2e5fe",
+					"jsonFile" : "target-pid_controller_saturate_output_gtest-Release-e3be885c9be97b42bee3.json",
+					"name" : "pid_controller_saturate_output_gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-d5dd82112ac195b28dbf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mission_planning_ws/src/build/as2_platform_multirotor_simulator",
+		"source" : "/mission_planning_ws/src/aerostack2/as2_aerial_platforms/as2_platform_multirotor_simulator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

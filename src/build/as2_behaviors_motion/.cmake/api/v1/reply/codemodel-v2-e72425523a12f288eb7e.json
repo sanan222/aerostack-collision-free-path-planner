@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-dfc8005087dfe34d3ce3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "as2_behaviors_motion",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_behaviors_motion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_behaviors_motion-Release-7a67d6777ef4f0adfefa.json",
+					"name" : "as2_behaviors_motion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_behaviors_motion_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_behaviors_motion_uninstall-Release-67608b1ab56a50fc1950.json",
+					"name" : "as2_behaviors_motion_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_path_behavior_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_path_behavior_node-Release-9c00c13815c3aa34adb6.json",
+					"name" : "follow_path_behavior_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_path_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_path_component-Release-cb8c268b7f5adbed3c28.json",
+					"name" : "follow_path_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_reference_behavior_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_reference_behavior_node-Release-fe8bc7157178181452bf.json",
+					"name" : "follow_reference_behavior_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "follow_reference_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-follow_reference_component-Release-32039ce1b2f80a3d1a68.json",
+					"name" : "follow_reference_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go_to_behavior_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go_to_behavior_node-Release-ed430564df011b582060.json",
+					"name" : "go_to_behavior_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go_to_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go_to_component-Release-d73161ae1578958a5fed.json",
+					"name" : "go_to_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "land_behavior_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-land_behavior_node-Release-030560a4275d1ce6db75.json",
+					"name" : "land_behavior_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "land_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-land_component-Release-e1cecf6837a6c0412f1a.json",
+					"name" : "land_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "takeoff_behavior_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-takeoff_behavior_node-Release-14017b9cae42709c61af.json",
+					"name" : "takeoff_behavior_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "takeoff_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-takeoff_component-Release-dbe72e7f41975c6068b9.json",
+					"name" : "takeoff_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-2ca8c7e0b6f6c89d9cc8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mission_planning_ws/src/build/as2_behaviors_motion",
+		"source" : "/mission_planning_ws/src/aerostack2/as2_behaviors/as2_behaviors_motion"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

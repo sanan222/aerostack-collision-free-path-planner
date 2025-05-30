@@ -1,0 +1,7 @@
+setup.py
+as2_platform_crazyflie/__init__.py
+as2_platform_crazyflie/viewer.py
+as2_platform_crazyflie.egg-info/PKG-INFO
+as2_platform_crazyflie.egg-info/SOURCES.txt
+as2_platform_crazyflie.egg-info/dependency_links.txt
+as2_platform_crazyflie.egg-info/top_level.txt

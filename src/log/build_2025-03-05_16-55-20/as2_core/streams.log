@@ -1,0 +1,198 @@
+[0.015s] Invoking command in '/mission_planning_ws/src/build/as2_core': AMENT_PREFIX_PATH=/mission_planning_ws/src/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/src/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/src/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/src/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mission_planning_ws/src/aerostack2/as2_core -DCMAKE_INSTALL_PREFIX=/mission_planning_ws/src/install/as2_core
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.110s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.247s] -- Detecting CXX compiler ABI info - done
+[0.254s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.254s] -- Detecting CXX compile features
+[0.255s] -- Detecting CXX compile features - done
+[0.255s] -- Detected ROS_DISTRO: humble
+[0.260s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.377s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.482s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.532s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.539s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.549s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.560s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.577s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.625s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.629s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.727s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.757s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.792s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.804s] -- Looking for pthread.h
+[0.865s] -- Looking for pthread.h - found
+[0.865s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.920s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.921s] -- Found Threads: TRUE  
+[0.963s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.986s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.996s] -- Found as2_msgs: 1.1.2 (/mission_planning_ws/src/install/as2_msgs/share/as2_msgs/cmake)
+[1.047s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.056s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.075s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.076s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.076s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.151s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.173s] -- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+[1.197s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.207s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu  
+[1.324s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[1.370s] -- Performing Test HAS_FLTO
+[1.513s] -- Performing Test HAS_FLTO - Success
+[1.513s] -- Found pybind11: /usr/include (found version "2.9.1")
+[1.594s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.677s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.719s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.721s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.722s] -- Configured cppcheck include dirs: /mission_planning_ws/src/aerostack2/as2_core/include;/mission_planning_ws/src/aerostack2/as2_core/include/as2_core;$<BUILD_INTERFACE:/mission_planning_ws/src/aerostack2/as2_core/include>
+[1.722s] -- Configured cppcheck exclude dirs and/or files: 
+[1.724s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.724s] -- Configured cpplint exclude dirs and/or files: 
+[1.725s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.726s] -- Added test 'lint_cmake' to check CMake code style
+[1.726s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.728s] -- Added test 'uncrustify' to check C / C++ code style
+[1.728s] -- Configured uncrustify additional arguments: 
+[1.729s] -- Added test 'xmllint' to check XML markup files
+[1.731s] -- Configuring done
+[1.767s] -- Generating done
+[1.779s] -- Build files have been written to: /mission_planning_ws/src/build/as2_core
+[1.788s] Invoked command in '/mission_planning_ws/src/build/as2_core' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/src/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/src/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/src/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/src/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mission_planning_ws/src/aerostack2/as2_core -DCMAKE_INSTALL_PREFIX=/mission_planning_ws/src/install/as2_core
+[1.790s] Invoking command in '/mission_planning_ws/src/build/as2_core': AMENT_PREFIX_PATH=/mission_planning_ws/src/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/src/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/src/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/src/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mission_planning_ws/src/build/as2_core -- -j22 -l22
+[1.835s] [  3%] [32mBuilding CXX object CMakeFiles/as2_names.dir/src/_as2_core_pybind11.cpp.o[0m
+[1.835s] [  6%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/utils/tf_utils.cpp.o[0m
+[1.835s] [  9%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/platform_state_machine.cpp.o[0m
+[1.836s] [ 12%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/sensor.cpp.o[0m
+[1.837s] [ 16%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/utils/frame_utils.cpp.o[0m
+[1.837s] [ 19%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.837s] [ 22%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/utils/gps_utils.cpp.o[0m
+[1.837s] [ 25%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/rate.cpp.o[0m
+[1.838s] [ 29%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/aerial_platform.cpp.o[0m
+[1.838s] [ 35%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/core_functions.cpp.o[0m
+[1.839s] [ 35%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/node.cpp.o[0m
+[1.839s] [ 38%] [32mBuilding CXX object CMakeFiles/mocks.dir/tests/mocks/aerial_platform/mock_aerial_platform.cpp.o[0m
+[1.840s] [ 41%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/utils/control_mode_utils.cpp.o[0m
+[1.840s] [ 45%] [32mBuilding CXX object CMakeFiles/as2_core.dir/src/utils/yaml_utils.cpp.o[0m
+[1.841s] [ 48%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.843s] [ 51%] [32mBuilding CXX object CMakeFiles/mocks.dir/tests/mocks/executor_thread_util/executor_thread_util.cpp.o[0m
+[1.855s] [ 51%] Built target ament_cmake_python_copy_as2_core
+[2.083s] running egg_info
+[2.083s] creating as2_core.egg-info
+[2.083s] writing as2_core.egg-info/PKG-INFO
+[2.083s] writing dependency_links to as2_core.egg-info/dependency_links.txt
+[2.083s] writing top-level names to as2_core.egg-info/top_level.txt
+[2.084s] writing manifest file 'as2_core.egg-info/SOURCES.txt'
+[2.085s] reading manifest file 'as2_core.egg-info/SOURCES.txt'
+[2.085s] writing manifest file 'as2_core.egg-info/SOURCES.txt'
+[2.112s] [ 51%] Built target ament_cmake_python_build_as2_core_egg
+[3.105s] [ 54%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.138s] [ 54%] Built target gtest_main
+[7.022s] [ 58%] [32m[1mLinking CXX shared module as2_names.cpython-310-x86_64-linux-gnu.so[0m
+[7.143s] lto-wrapper: warning: using serial compilation of 2 LTRANS jobs
+[8.780s] [ 58%] Built target as2_names
+[9.886s] [ 61%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.927s] [ 61%] Built target gtest
+[23.328s] [ 64%] [32m[1mLinking CXX static library libas2_core.a[0m
+[23.407s] [ 64%] Built target as2_core
+[23.426s] [ 70%] [32mBuilding CXX object tests/CMakeFiles/frame_test.dir/frame_test.cpp.o[0m
+[23.426s] [ 70%] [32mBuilding CXX object tests/CMakeFiles/tf2_namespace_test.dir/tf2_namespace_test.cpp.o[0m
+[23.427s] [ 74%] [32mBuilding CXX object tests/CMakeFiles/platform_state_machine_test.dir/platform_state_machine_test.cpp.o[0m
+[23.427s] [ 77%] [32mBuilding CXX object tests/CMakeFiles/tf_utils_gtest.dir/tf_utils_gtest.cpp.o[0m
+[23.427s] [ 80%] [32mBuilding CXX object tests/CMakeFiles/sensor_test.dir/sensor_test.cpp.o[0m
+[25.047s] [ 83%] [32m[1mLinking CXX shared library libmocks.so[0m
+[25.318s] [ 83%] Built target mocks
+[26.818s] [ 87%] [32m[1mLinking CXX executable tf2_namespace_test[0m
+[26.868s] [ 90%] [32m[1mLinking CXX executable platform_state_machine_test[0m
+[26.966s] [ 90%] Built target tf2_namespace_test
+[27.015s] [ 90%] Built target platform_state_machine_test
+[27.189s] [ 93%] [32m[1mLinking CXX executable frame_test[0m
+[27.313s] [ 93%] Built target frame_test
+[28.960s] [ 96%] [32m[1mLinking CXX executable tf_utils_gtest[0m
+[29.095s] [ 96%] Built target tf_utils_gtest
+[30.724s] [100%] [32m[1mLinking CXX executable sensor_test[0m
+[30.981s] [100%] Built target sensor_test
+[30.989s] Invoked command in '/mission_planning_ws/src/build/as2_core' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/src/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/src/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/src/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/src/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mission_planning_ws/src/build/as2_core -- -j22 -l22
+[30.991s] Invoking command in '/mission_planning_ws/src/build/as2_core': AMENT_PREFIX_PATH=/mission_planning_ws/src/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/src/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/src/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/src/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mission_planning_ws/src/build/as2_core
+[30.996s] -- Install configuration: "Release"
+[30.996s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/environment/pythonpath.sh
+[30.996s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/environment/pythonpath.dsv
+[30.996s] -- Installing: /mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core-1.1.2-py3.10.egg-info
+[30.996s] -- Installing: /mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core-1.1.2-py3.10.egg-info/dependency_links.txt
+[30.996s] -- Installing: /mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core-1.1.2-py3.10.egg-info/PKG-INFO
+[30.996s] -- Installing: /mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core-1.1.2-py3.10.egg-info/top_level.txt
+[30.996s] -- Installing: /mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core-1.1.2-py3.10.egg-info/SOURCES.txt
+[30.996s] -- Installing: /mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core
+[30.996s] -- Installing: /mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core/__init__.py
+[30.996s] -- Installing: /mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_plugin_utils.py
+[30.996s] -- Installing: /mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core/declare_launch_arguments_from_config_file.py
+[30.996s] -- Installing: /mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_param_utils.py
+[30.996s] -- Installing: /mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_configuration_from_config_file.py
+[31.021s] Listing '/mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core'...
+[31.021s] Compiling '/mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core/__init__.py'...
+[31.021s] Compiling '/mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core/declare_launch_arguments_from_config_file.py'...
+[31.021s] Compiling '/mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_configuration_from_config_file.py'...
+[31.021s] Compiling '/mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_param_utils.py'...
+[31.021s] Compiling '/mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core/launch_plugin_utils.py'...
+[31.023s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/mocks/
+[31.023s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/mocks//executor_thread_util
+[31.023s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/mocks//executor_thread_util/executor_thread_util.hpp
+[31.024s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/mocks//aerial_platform
+[31.024s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/mocks//aerial_platform/mock_aerial_platform.hpp
+[31.024s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/environment/library_path.sh
+[31.024s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/environment/library_path.dsv
+[31.024s] -- Installing: /mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core/as2_names.cpython-310-x86_64-linux-gnu.so
+[31.024s] -- Set runtime path of "/mission_planning_ws/src/install/as2_core/local/lib/python3.10/dist-packages/as2_core/as2_names.cpython-310-x86_64-linux-gnu.so" to ""
+[31.024s] -- Up-to-date: /mission_planning_ws/src/install/as2_core/include
+[31.024s] -- Up-to-date: /mission_planning_ws/src/install/as2_core/include/as2_core
+[31.024s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/custom
+[31.024s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/custom/tf2_geometry_msgs.hpp
+[31.024s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/custom/tf2_geometry_msgs.hpp.in
+[31.024s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/core_functions.hpp
+[31.024s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/sensor.hpp
+[31.024s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/synchronous_service_client.hpp
+[31.024s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/utils
+[31.025s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/utils/tf_utils.hpp
+[31.025s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/utils/control_mode_utils.hpp
+[31.025s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/utils/yaml_utils.hpp
+[31.025s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/utils/gps_utils.hpp
+[31.025s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/utils/frame_utils.hpp
+[31.025s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/names
+[31.025s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/names/services.hpp
+[31.025s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/names/topics.hpp
+[31.025s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/names/actions.hpp
+[31.025s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/platform_state_machine.hpp
+[31.025s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/as2_basic_behavior.hpp
+[31.025s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/aerial_platform.hpp
+[31.025s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/node.hpp
+[31.025s] -- Installing: /mission_planning_ws/src/install/as2_core/include/as2_core/rate.hpp
+[31.025s] -- Installing: /mission_planning_ws/src/install/as2_core/lib/libas2_core.a
+[31.028s] -- Installing: /mission_planning_ws/src/install/as2_core/lib/libmocks.so
+[31.030s] -- Set runtime path of "/mission_planning_ws/src/install/as2_core/lib/libmocks.so" to ""
+[31.030s] -- Installing: /mission_planning_ws/src/install/as2_core/share/ament_index/resource_index/package_run_dependencies/as2_core
+[31.030s] -- Installing: /mission_planning_ws/src/install/as2_core/share/ament_index/resource_index/parent_prefix_path/as2_core
+[31.030s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/environment/ament_prefix_path.sh
+[31.030s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/environment/ament_prefix_path.dsv
+[31.030s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/environment/path.sh
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/environment/path.dsv
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/local_setup.bash
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/local_setup.sh
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/local_setup.zsh
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/local_setup.dsv
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/package.dsv
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/ament_index/resource_index/packages/as2_core
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/cmake/export_as2_coreExport.cmake
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/cmake/export_as2_coreExport-release.cmake
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/cmake/ament_cmake_export_targets-extras.cmake
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/cmake/ament_cmake_export_libraries-extras.cmake
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/cmake/as2_coreConfig.cmake
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/cmake/as2_coreConfig-version.cmake
+[31.031s] -- Installing: /mission_planning_ws/src/install/as2_core/share/as2_core/package.xml
+[31.034s] Invoked command in '/mission_planning_ws/src/build/as2_core' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/src/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/src/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/src/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/src/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mission_planning_ws/src/build/as2_core

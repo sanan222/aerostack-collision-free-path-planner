@@ -1,0 +1,3 @@
+repository='https://github.com/miferco97/crazyflie_cpp.git'
+module=''
+tag='origin'

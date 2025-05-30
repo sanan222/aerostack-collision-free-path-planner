@@ -1,0 +1,569 @@
+[0.038s] Invoking command in '/mission_planning_ws/build/as2_gazebo_assets': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mission_planning_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets -DCMAKE_INSTALL_PREFIX=/mission_planning_ws/install/as2_gazebo_assets
+[0.092s] -- The C compiler identification is GNU 11.4.0
+[0.151s] -- The CXX compiler identification is GNU 11.4.0
+[0.157s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.338s] -- Detecting CXX compiler ABI info - done
+[0.343s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.343s] -- Detecting CXX compile features
+[0.344s] -- Detecting CXX compile features - done
+[0.370s] [0mUsing GAZEBO version: fortress[0m
+[0.388s] -- Looking for ignition-gazebo6 -- found version 6.17.0
+[0.408s] -- Searching for dependencies of ignition-gazebo6
+[0.418s] -- Looking for sdformat12 -- found version 12.8.0
+[0.418s] -- Searching for dependencies of sdformat12
+[0.424s] -- Checking for module 'tinyxml2'
+[0.436s] --   Found tinyxml2, version 9.0.0
+[0.481s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.482s] -- Searching for dependencies of ignition-math6
+[0.497s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.497s] -- Searching for dependencies of ignition-utils1
+[0.511s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.511s] -- Searching for dependencies of ignition-plugin1
+[0.512s] -- Searching for <ignition-plugin1> component [loader]
+[0.521s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[0.521s] -- Searching for dependencies of ignition-plugin1-loader
+[0.522s] -- Searching for <ignition-plugin1> component [register]
+[0.532s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[0.532s] -- Searching for dependencies of ignition-plugin1-register
+[0.542s] -- Looking for ignition-transport11 -- found version 11.4.1
+[0.542s] -- Searching for dependencies of ignition-transport11
+[0.779s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.806s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.815s] -- Checking for module 'libzmq >= 4'
+[0.840s] --   Found libzmq , version 4.3.4
+[0.896s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.906s] -- Checking for module 'uuid'
+[0.926s] --   Found uuid, version 2.37.2
+[0.971s] -- Found UUID: TRUE  
+[0.972s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.972s] -- Searching for dependencies of ignition-utils1
+[0.973s] -- Searching for <ignition-utils1> component [cli]
+[0.986s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[0.987s] -- Searching for dependencies of ignition-utils1-cli
+[1.003s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.004s] -- Searching for dependencies of ignition-msgs8
+[1.044s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.045s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.063s] -- Searching for <ignition-transport11> component [log]
+[1.075s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[1.076s] -- Searching for dependencies of ignition-transport11-log
+[1.077s] -- Searching for <ignition-transport11> component [parameters]
+[1.090s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[1.090s] -- Searching for dependencies of ignition-transport11-parameters
+[1.092s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.104s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.104s] -- Searching for dependencies of ignition-common4
+[1.106s] -- Looking for dlfcn.h - found
+[1.108s] -- Looking for libdl - found
+[1.109s] -- Found DL: TRUE  
+[1.123s] -- Searching for <ignition-common4> component [profiler]
+[1.135s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[1.136s] -- Searching for dependencies of ignition-common4-profiler
+[1.137s] -- Searching for <ignition-common4> component [events]
+[1.150s] -- Looking for ignition-common4-events -- found version 4.7.0
+[1.150s] -- Searching for dependencies of ignition-common4-events
+[1.150s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.152s] -- Searching for <ignition-common4> component [av]
+[1.163s] -- Looking for ignition-common4-av -- found version 4.7.0
+[1.164s] -- Searching for dependencies of ignition-common4-av
+[1.171s] -- Checking for module 'libswscale'
+[1.191s] --   Found libswscale, version 5.9.100
+[1.240s] -- Found SWSCALE: TRUE  
+[1.246s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.265s] --   Found libavdevice , version 58.13.100
+[1.319s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[1.325s] -- Checking for module 'libavformat'
+[1.344s] --   Found libavformat, version 58.76.100
+[1.398s] -- Found AVFORMAT: TRUE  
+[1.405s] -- Checking for module 'libavcodec'
+[1.426s] --   Found libavcodec, version 58.134.100
+[1.467s] -- Found AVCODEC: TRUE  
+[1.473s] -- Checking for module 'libavutil'
+[1.490s] --   Found libavutil, version 56.70.100
+[1.534s] -- Found AVUTIL: TRUE  
+[1.544s] -- Looking for ignition-fuel_tools7 -- found version 7.3.1
+[1.544s] -- Searching for dependencies of ignition-fuel_tools7
+[1.670s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.696s] -- Checking for module 'jsoncpp'
+[1.723s] --   Found jsoncpp, version 1.9.5
+[1.768s] -- Found JSONCPP: TRUE  
+[1.780s] -- Checking for module 'libzip'
+[1.799s] --   Found libzip, version 1.7.3
+[1.842s] -- Found ZIP: TRUE  
+[1.842s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.843s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.843s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.858s] -- Looking for ignition-gui6 -- found version 6.8.0
+[1.859s] -- Searching for dependencies of ignition-gui6
+[1.907s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.907s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.908s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.908s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.919s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.919s] -- Searching for dependencies of ignition-rendering6
+[1.920s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.920s] -- Searching for dependencies of ignition-math6
+[1.920s] -- Searching for <ignition-math6> component [eigen3]
+[1.930s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[1.931s] -- Searching for dependencies of ignition-math6-eigen3
+[1.948s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.948s] -- Searching for dependencies of ignition-common4
+[1.949s] -- Looking for dlfcn.h - found
+[1.949s] -- Looking for libdl - found
+[1.958s] -- Searching for <ignition-common4> component [graphics]
+[1.967s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[1.968s] -- Searching for dependencies of ignition-common4-graphics
+[1.969s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.969s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.970s] -- Searching for <ignition-common4> component [events]
+[1.972s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.972s] -- Searching for dependencies of ignition-plugin1
+[1.972s] -- Searching for <ignition-plugin1> component [all]
+[1.980s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[1.981s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.984s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.060s] -- Looking for ignition-physics5 -- found version 5.3.2
+[2.060s] -- Searching for dependencies of ignition-physics5
+[2.060s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.061s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.061s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.063s] -- Searching for <ignition-physics5> component [heightmap]
+[2.077s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[2.077s] -- Searching for dependencies of ignition-physics5-heightmap
+[2.078s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.078s] -- Searching for <ignition-physics5> component [mesh]
+[2.091s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[2.091s] -- Searching for dependencies of ignition-physics5-mesh
+[2.092s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.093s] -- Searching for <ignition-physics5> component [sdf]
+[2.103s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[2.104s] -- Searching for dependencies of ignition-physics5-sdf
+[2.104s] -- Looking for sdformat12 -- found version 12.8.0
+[2.116s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.117s] -- Searching for dependencies of ignition-sensors6
+[2.159s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.161s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.161s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.162s] -- Looking for ignition-transport11 -- found version 11.4.1
+[2.162s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[2.163s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.163s] -- Looking for sdformat12 -- found version 12.8.0
+[2.164s] -- Searching for <ignition-sensors6> component [air_pressure]
+[2.176s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.1
+[2.176s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[2.178s] -- Searching for <ignition-sensors6> component [altimeter]
+[2.190s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.1
+[2.190s] -- Searching for dependencies of ignition-sensors6-altimeter
+[2.192s] -- Searching for <ignition-sensors6> component [imu]
+[2.204s] -- Looking for ignition-sensors6-imu -- found version 6.8.1
+[2.204s] -- Searching for dependencies of ignition-sensors6-imu
+[2.205s] -- Searching for <ignition-sensors6> component [force_torque]
+[2.215s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.1
+[2.215s] -- Searching for dependencies of ignition-sensors6-force_torque
+[2.216s] -- Searching for <ignition-sensors6> component [logical_camera]
+[2.224s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.1
+[2.224s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[2.226s] -- Searching for <ignition-sensors6> component [magnetometer]
+[2.239s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.1
+[2.240s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[2.241s] -- Searching for <ignition-sensors6> component [navsat]
+[2.255s] -- Looking for ignition-sensors6-navsat -- found version 6.8.1
+[2.255s] -- Searching for dependencies of ignition-sensors6-navsat
+[2.256s] -- Searching for <ignition-sensors6> component [rendering]
+[2.268s] -- Looking for ignition-sensors6-rendering -- found version 6.8.1
+[2.269s] -- Searching for dependencies of ignition-sensors6-rendering
+[2.270s] -- Searching for <ignition-sensors6> component [lidar]
+[2.281s] -- Looking for ignition-sensors6-lidar -- found version 6.8.1
+[2.282s] -- Searching for dependencies of ignition-sensors6-lidar
+[2.282s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.283s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[2.295s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1
+[2.296s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[2.296s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.297s] -- Searching for <ignition-sensors6> component [camera]
+[2.309s] -- Looking for ignition-sensors6-camera -- found version 6.8.1
+[2.310s] -- Searching for dependencies of ignition-sensors6-camera
+[2.310s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.311s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[2.322s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1
+[2.323s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[2.324s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[2.333s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1
+[2.333s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[2.334s] -- Searching for <ignition-sensors6> component [depth_camera]
+[2.345s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.1
+[2.346s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[2.346s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.348s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[2.359s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1
+[2.359s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[2.360s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.361s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[2.369s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1
+[2.370s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[2.370s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.372s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[2.373s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.388s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.435s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.436s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.436s] -- Looking for ignition-transport11 -- found version 11.4.1
+[2.437s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.437s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[2.437s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.446s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.700s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.109s] -- Found ros_gz_sim: 0.244.16 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[3.538s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.609s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.692s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.942s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.527s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.606s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.706s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.923s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.256s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.344s] -- Found Threads: TRUE  
+[6.514s] -- Found ros_gz_bridge: 0.244.16 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[8.260s] -- Found as2_core: 1.1.2 (/mission_planning_ws/install/as2_core/share/as2_core/cmake)
+[8.749s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.752s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.753s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[11.428s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.875s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[35.345s] -- Added test 'copyright' to check source files copyright and LICENSE
+[35.602s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[35.704s] -- Configured cppcheck include dirs: /mission_planning_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/include;/mission_planning_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets/include/as2_gazebo_assets
+[35.705s] -- Configured cppcheck exclude dirs and/or files: 
+[35.832s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[35.832s] -- Configured cpplint exclude dirs and/or files: 
+[35.871s] -- Added test 'flake8' to check Python code syntax and style conventions
+[35.927s] -- Added test 'lint_cmake' to check CMake code style
+[35.946s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[36.032s] -- Added test 'uncrustify' to check C / C++ code style
+[36.040s] -- Configured uncrustify additional arguments: 
+[36.053s] -- Added test 'xmllint' to check XML markup files
+[36.077s] -- Configuring done
+[37.023s] -- Generating done
+[37.139s] -- Build files have been written to: /mission_planning_ws/build/as2_gazebo_assets
+[37.749s] Invoked command in '/mission_planning_ws/build/as2_gazebo_assets' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mission_planning_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets -DCMAKE_INSTALL_PREFIX=/mission_planning_ws/install/as2_gazebo_assets
+[37.749s] Invoking command in '/mission_planning_ws/build/as2_gazebo_assets': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mission_planning_ws/build/as2_gazebo_assets -- -j22 -l22
+[38.089s] [  4%] [32mBuilding CXX object CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge.cpp.o[0m
+[63.695s] [  8%] [32mBuilding CXX object CMakeFiles/gps_bridge.dir/src/gps_bridge/gps_bridge_node.cpp.o[0m
+[72.728s] [ 12%] [32m[1mLinking CXX executable gps_bridge[0m
+[73.986s] [ 12%] Built target gps_bridge
+[74.043s] [ 12%] Built target ament_cmake_python_copy_as2_gazebo_assets
+[74.076s] [ 16%] [32mBuilding CXX object CMakeFiles/MulticopterINDIControl.dir/plugins/indi-control_ign/INDIControlPlugin.cpp.o[0m
+[91.060s] [ 20%] [32mBuilding CXX object CMakeFiles/MulticopterINDIControl.dir/plugins/indi-control_ign/Common.cpp.o[0m
+[100.188s] [ 25%] [32m[1mLinking CXX shared library libMulticopterINDIControl.so[0m
+[100.939s] [ 25%] Built target MulticopterINDIControl
+[101.310s] running egg_info
+[101.311s] creating as2_gazebo_assets.egg-info
+[101.311s] writing as2_gazebo_assets.egg-info/PKG-INFO
+[101.311s] writing dependency_links to as2_gazebo_assets.egg-info/dependency_links.txt
+[101.312s] writing top-level names to as2_gazebo_assets.egg-info/top_level.txt
+[101.312s] writing manifest file 'as2_gazebo_assets.egg-info/SOURCES.txt'
+[101.315s] reading manifest file 'as2_gazebo_assets.egg-info/SOURCES.txt'
+[101.316s] writing manifest file 'as2_gazebo_assets.egg-info/SOURCES.txt'
+[101.363s] [ 25%] Built target ament_cmake_python_build_as2_gazebo_assets_egg
+[101.396s] [ 29%] [32mBuilding CXX object CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose_bridge.cpp.o[0m
+[109.959s] [ 33%] [32mBuilding CXX object CMakeFiles/set_entity_pose_bridge.dir/src/set_entity_pose_bridge/set_entity_pose_bridge_node.cpp.o[0m
+[116.829s] [ 37%] [32m[1mLinking CXX executable set_entity_pose_bridge[0m
+[117.209s] [ 37%] Built target set_entity_pose_bridge
+[117.236s] [ 41%] [32mBuilding CXX object CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge_node.cpp.o[0m
+[117.240s] [ 45%] [32mBuilding CXX object CMakeFiles/acro_bridge.dir/src/acro_bridge/acro_bridge.cpp.o[0m
+[117.245s] [ 50%] [32mBuilding CXX object CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge.cpp.o[0m
+[117.245s] [ 54%] [32mBuilding CXX object CMakeFiles/gimbal_bridge.dir/src/gimbal_bridge/gimbal_bridge_node.cpp.o[0m
+[135.943s] [ 58%] [32m[1mLinking CXX executable acro_bridge[0m
+[136.624s] [ 58%] Built target acro_bridge
+[136.657s] [ 75%] [32mBuilding CXX object CMakeFiles/ground_truth_bridge.dir/src/ground_truth_bridge/ground_truth_bridge.cpp.o[0m
+[136.657s] [ 75%] [32mBuilding CXX object CMakeFiles/object_tf_broadcaster.dir/src/object_tf_broadcaster/object_tf_broadcaster.cpp.o[0m
+[136.657s] [ 75%] [32mBuilding CXX object CMakeFiles/object_tf_broadcaster.dir/src/object_tf_broadcaster/object_tf_broadcaster_node.cpp.o[0m
+[136.657s] [ 75%] [32mBuilding CXX object CMakeFiles/ground_truth_bridge.dir/src/ground_truth_bridge/ground_truth_bridge_node.cpp.o[0m
+[136.657s] [ 79%] [32mBuilding CXX object CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge.cpp.o[0m
+[136.657s] [ 83%] [32mBuilding CXX object CMakeFiles/azimuth_bridge.dir/src/azimuth_bridge/azimuth_bridge_node.cpp.o[0m
+[137.399s] [ 87%] [32m[1mLinking CXX executable gimbal_bridge[0m
+[138.706s] [ 87%] Built target gimbal_bridge
+[150.611s] [ 91%] [32m[1mLinking CXX executable object_tf_broadcaster[0m
+[151.573s] [ 91%] Built target object_tf_broadcaster
+[152.609s] [ 95%] [32m[1mLinking CXX executable ground_truth_bridge[0m
+[152.716s] [100%] [32m[1mLinking CXX executable azimuth_bridge[0m
+[153.304s] [100%] Built target azimuth_bridge
+[153.708s] [100%] Built target ground_truth_bridge
+[153.727s] Invoked command in '/mission_planning_ws/build/as2_gazebo_assets' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mission_planning_ws/build/as2_gazebo_assets -- -j22 -l22
+[153.729s] Invoking command in '/mission_planning_ws/build/as2_gazebo_assets': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mission_planning_ws/build/as2_gazebo_assets
+[153.743s] -- Install configuration: ""
+[153.743s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/resource_paths.dsv
+[153.743s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/resource_paths.sh
+[153.744s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/azimuth_bridge
+[153.746s] -- Set runtime path of "/mission_planning_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/azimuth_bridge" to ""
+[153.747s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/gps_bridge
+[153.749s] -- Set runtime path of "/mission_planning_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/gps_bridge" to ""
+[153.749s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/ground_truth_bridge
+[153.752s] -- Set runtime path of "/mission_planning_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/ground_truth_bridge" to ""
+[153.752s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/object_tf_broadcaster
+[153.754s] -- Set runtime path of "/mission_planning_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/object_tf_broadcaster" to ""
+[153.754s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/gimbal_bridge
+[153.759s] -- Set runtime path of "/mission_planning_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/gimbal_bridge" to ""
+[153.759s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/acro_bridge
+[153.764s] -- Set runtime path of "/mission_planning_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/acro_bridge" to ""
+[153.764s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/set_entity_pose_bridge
+[153.766s] -- Set runtime path of "/mission_planning_ws/install/as2_gazebo_assets/lib/as2_gazebo_assets/set_entity_pose_bridge" to ""
+[153.766s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/lib/libMulticopterINDIControl.so
+[153.773s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/pythonpath.sh
+[153.773s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/pythonpath.dsv
+[153.773s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.2-py3.10.egg-info
+[153.773s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.2-py3.10.egg-info/dependency_links.txt
+[153.774s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.2-py3.10.egg-info/PKG-INFO
+[153.774s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.2-py3.10.egg-info/top_level.txt
+[153.774s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets-1.1.2-py3.10.egg-info/SOURCES.txt
+[153.774s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets
+[153.774s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/__init__.py
+[153.775s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/tests
+[153.775s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/tests/test_models.py
+[153.775s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/utils
+[153.775s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/utils/launch_exception.py
+[153.775s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/world.py
+[153.775s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges
+[153.775s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/bridge.py
+[153.776s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/__init__.py
+[153.776s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/custom_bridges.py
+[153.776s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/bridges.py
+[153.776s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models
+[153.776s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/drone.py
+[153.777s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/__init__.py
+[153.777s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/entity.py
+[153.777s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/payload.py
+[153.777s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/object.py
+[153.861s] Listing '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets'...
+[153.861s] Compiling '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/__init__.py'...
+[153.861s] Listing '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges'...
+[153.861s] Compiling '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/__init__.py'...
+[153.861s] Compiling '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/bridge.py'...
+[153.861s] Compiling '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/bridges.py'...
+[153.861s] Compiling '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/bridges/custom_bridges.py'...
+[153.861s] Listing '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models'...
+[153.862s] Compiling '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/__init__.py'...
+[153.862s] Compiling '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/drone.py'...
+[153.862s] Compiling '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/entity.py'...
+[153.862s] Compiling '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/object.py'...
+[153.862s] Compiling '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/models/payload.py'...
+[153.862s] Listing '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/tests'...
+[153.862s] Compiling '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/tests/test_models.py'...
+[153.862s] Listing '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/utils'...
+[153.862s] Compiling '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/utils/launch_exception.py'...
+[153.862s] Compiling '/mission_planning_ws/install/as2_gazebo_assets/local/lib/python3.10/dist-packages/as2_gazebo_assets/world.py'...
+[153.867s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/include
+[153.867s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/include/as2_gazebo_assets
+[153.867s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/object_tf_broadcaster.hpp
+[153.868s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/set_entity_pose_bridge.hpp
+[153.868s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/azimuth_bridge.hpp
+[153.868s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/ground_truth_bridge.hpp
+[153.869s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/gps_bridge.hpp
+[153.869s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/gimbal_bridge.hpp
+[153.870s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/include/as2_gazebo_assets/acro_bridge.hpp
+[153.870s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch
+[153.871s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/drone_bridges.py
+[153.871s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/object_bridges.py
+[153.872s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/world_bridges.py
+[153.872s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/monitor_sim.py
+[153.872s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/launch/launch_simulation.py
+[153.872s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/worlds
+[153.873s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/worlds/test_gripper.sdf
+[153.873s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/worlds/grass.sdf.jinja
+[153.873s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/worlds/empty.sdf.jinja
+[153.873s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models
+[153.874s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/planar_lidar
+[153.874s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/planar_lidar/model.config
+[153.874s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/planar_lidar/planar_lidar.sdf
+[153.874s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/magnetometer
+[153.874s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/magnetometer/magnetometer.sdf
+[153.875s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/magnetometer/model.config
+[153.875s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grayscaled_camera
+[153.875s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grayscaled_camera/grayscaled_camera.sdf
+[153.876s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grayscaled_camera/model.config
+[153.876s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grayscaled_camera/grayscaled_camera.sdf.jinja
+[153.876s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/ground_plane
+[153.876s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/ground_plane/model.config
+[153.877s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/ground_plane/ground_plane.sdf
+[153.877s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/rgbd_camera
+[153.877s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/rgbd_camera/rgbd_camera.sdf
+[153.878s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/rgbd_camera/rgbd_camera.sdf.jinja
+[153.878s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/rgbd_camera/model.config
+[153.878s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1
+[153.879s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/model.config
+[153.879s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/aruco_gate_1.sdf
+[153.879s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes
+[153.879s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/hoop_2.stl
+[153.880s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/base_2.stl
+[153.882s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/base.stl
+[153.883s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/background.stl
+[153.884s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_1/meshes/hoop.stl
+[153.885s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/point_lidar
+[153.885s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/point_lidar/model.config
+[153.885s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/point_lidar/point_lidar.sdf
+[153.886s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/suction_gripper
+[153.886s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/suction_gripper/model.config
+[153.886s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/suction_gripper/suction_gripper.sdf
+[153.887s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie
+[153.887s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/crazyflie.sdf.jinja
+[153.887s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/model.config
+[153.888s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/crazyflie.sdf
+[153.888s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/meshes
+[153.888s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/meshes/ccw_prop.dae
+[153.889s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/meshes/cf2_assembly.dae
+[153.890s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/crazyflie/meshes/cw_prop.dae
+[153.891s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hd_camera
+[153.891s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hd_camera/hd_camera.sdf
+[153.891s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hd_camera/model.config
+[153.892s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hd_camera/hd_camera.sdf.jinja
+[153.892s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500
+[153.892s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/x500.sdf.jinja
+[153.893s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials
+[153.893s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials/textures
+[153.893s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials/textures/CF.png
+[153.902s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials/textures/rd.png
+[153.904s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/materials/textures/nxp.png
+[153.905s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/x500.sdf
+[153.905s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails
+[153.905s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/3.png
+[153.906s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/5.png
+[153.907s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/1.png
+[153.908s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/4.png
+[153.908s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/thumbnails/2.png
+[153.909s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/model.config
+[153.910s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes
+[153.910s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/1345_prop_cw.stl
+[153.914s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/CF.png
+[153.924s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/NXP-HGD-CF.dae
+[154.033s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/5010Base.dae
+[154.036s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/5010Bell.dae
+[154.038s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/x500/meshes/1345_prop_ccw.stl
+[154.041s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill
+[154.042s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/windmill.sdf
+[154.042s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/model.config
+[154.044s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes
+[154.044s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/rotor.dae
+[154.045s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/tower.dae
+[154.049s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/Plastic010_1K_Displacement.jpg
+[154.050s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/windmill/meshes/blades.dae
+[154.052s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/semantic_camera
+[154.052s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/semantic_camera/semantic_camera.sdf.jinja
+[154.053s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/semantic_camera/model.config
+[154.053s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/semantic_camera/semantic_camera.sdf
+[154.054s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/3d_lidar
+[154.054s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/3d_lidar/3d_lidar.sdf
+[154.054s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/3d_lidar/model.config
+[154.055s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/lidar_3d
+[154.055s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/lidar_3d/lidar_3d.sdf
+[154.055s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/lidar_3d/model.config
+[154.056s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal
+[154.056s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/position_gimbal.sdf
+[154.057s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/speed_gimbal.sdf.jinja
+[154.057s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/model.config
+[154.058s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gimbal/position_gimbal.sdf.jinja
+[154.058s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch
+[154.058s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/model.sdf
+[154.059s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/materials
+[154.059s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/materials/textures
+[154.059s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/materials/textures/grass_dry.png
+[154.063s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/thumbnails
+[154.063s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/thumbnails/grasspatch.jpg
+[154.066s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/grass_patch/model.config
+[154.067s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision
+[154.067s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/px4vision.sdf.jinja
+[154.068s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/thumbnails
+[154.068s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/thumbnails/px4vision_diagonal.png
+[154.069s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/thumbnails/px4_vision_top.png
+[154.071s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/thumbnails/px4_vision_front.png
+[154.071s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/model.config
+[154.072s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/px4vision.sdf
+[154.072s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/meshes
+[154.072s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/meshes/iris_prop_cw.dae
+[154.076s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/meshes/body.dae
+[154.105s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/px4vision/meshes/iris_prop_ccw.dae
+[154.107s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_2
+[154.108s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_2/aruco_gate_2.sdf
+[154.108s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco_gate_2/model.config
+[154.109s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco
+[154.109s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/aruco.sdf
+[154.110s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials
+[154.110s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures
+[154.111s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker5.png
+[154.111s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker4.png
+[154.112s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker3.png
+[154.112s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker1.png
+[154.113s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/textures/marker2.png
+[154.113s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/scripts
+[154.113s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/materials/scripts/aruco.material
+[154.114s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/model.config
+[154.114s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/meshes
+[154.114s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/aruco/meshes/checkerboard_plane.dae
+[154.115s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gps
+[154.115s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gps/gps.sdf
+[154.116s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gps/model.config
+[154.116s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/vga_camera
+[154.116s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/vga_camera/model.config
+[154.117s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/vga_camera/vga_camera.sdf.jinja
+[154.118s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/vga_camera/vga_camera.sdf
+[154.118s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base
+[154.118s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/materials
+[154.118s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/materials/textures
+[154.119s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/materials/textures/led.jpg
+[154.120s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/quadrotor_base.sdf.jinja
+[154.120s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/quadrotor_base.sdf
+[154.121s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/model.config
+[154.122s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes
+[154.122s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/quadrotor.jpg
+[154.123s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/propeller_cw.dae
+[154.124s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/led_lamp.dae
+[154.124s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/quadrotor.dae
+[154.130s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/led.dae
+[154.131s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/quadrotor_base/meshes/propeller_ccw.dae
+[154.132s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate
+[154.133s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/model.config
+[154.133s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/gate.sdf
+[154.134s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/meshes
+[154.134s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/meshes/gate.dae
+[154.138s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/gate/meshes/gate_color.png
+[154.140s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base
+[154.140s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/materials
+[154.140s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/materials/textures
+[154.141s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/materials/textures/led.jpg
+[154.142s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/model.config
+[154.142s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/hexrotor_base.sdf
+[154.143s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/hexrotor_base.sdf.jinja
+[154.144s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes
+[154.144s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/neo11_propeller_cw.dae
+[154.152s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/hexrotor.jpg
+[154.153s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/led_lamp.dae
+[154.154s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/led.dae
+[154.155s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/neo11_propeller_ccw.dae
+[154.162s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/hexrotor_base/meshes/hexrotor.dae
+[154.166s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/air_pressure
+[154.166s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/air_pressure/model.config
+[154.167s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/models/air_pressure/air_pressure.sdf
+[154.168s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/scripts
+[154.168s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/scripts/jinja_gen.py
+[154.169s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/ament_index/resource_index/package_run_dependencies/as2_gazebo_assets
+[154.171s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/ament_index/resource_index/parent_prefix_path/as2_gazebo_assets
+[154.171s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/ament_prefix_path.sh
+[154.171s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/ament_prefix_path.dsv
+[154.171s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/path.sh
+[154.171s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/environment/path.dsv
+[154.172s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.bash
+[154.172s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.sh
+[154.172s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.zsh
+[154.173s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/local_setup.dsv
+[154.173s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/package.dsv
+[154.174s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/ament_index/resource_index/packages/as2_gazebo_assets
+[154.174s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/cmake/as2_gazebo_assetsConfig.cmake
+[154.174s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/cmake/as2_gazebo_assetsConfig-version.cmake
+[154.175s] -- Installing: /mission_planning_ws/install/as2_gazebo_assets/share/as2_gazebo_assets/package.xml
+[154.182s] Invoked command in '/mission_planning_ws/build/as2_gazebo_assets' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mission_planning_ws/build/as2_gazebo_assets

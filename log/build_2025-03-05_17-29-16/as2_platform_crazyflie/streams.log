@@ -1,0 +1,137 @@
+[0.031s] Invoking command in '/mission_planning_ws/build/as2_platform_crazyflie': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mission_planning_ws/src/as2_platform_crazyflie -DCMAKE_INSTALL_PREFIX=/mission_planning_ws/install/as2_platform_crazyflie
+[0.080s] -- The C compiler identification is GNU 11.4.0
+[0.142s] -- The CXX compiler identification is GNU 11.4.0
+[0.149s] -- Detecting C compiler ABI info
+[0.236s] -- Detecting C compiler ABI info - done
+[0.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.244s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.248s] -- Detecting CXX compiler ABI info
+[0.333s] -- Detecting CXX compiler ABI info - done
+[0.339s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.339s] -- Detecting CXX compile features
+[0.339s] -- Detecting CXX compile features - done
+[0.349s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.567s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.803s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.814s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.960s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.981s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.005s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.035s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.077s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.211s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.226s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.398s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.445s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.520s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.551s] -- Looking for pthread.h
+[1.650s] -- Looking for pthread.h - found
+[1.650s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.743s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.744s] -- Found Threads: TRUE  
+[1.855s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.912s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.933s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.955s] -- Found as2_core: 1.1.2 (/mission_planning_ws/install/as2_core/share/as2_core/cmake)
+[2.155s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.157s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.157s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.484s] -- crazyflie_cpp not found
+[30.249s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[30.380s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[32.031s] -- Added test 'copyright' to check source files copyright and LICENSE
+[32.087s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[32.099s] -- Configured cppcheck include dirs: /mission_planning_ws/src/as2_platform_crazyflie/include;/mission_planning_ws/src/as2_platform_crazyflie/include/as2_platform_crazyflie
+[32.099s] -- Configured cppcheck exclude dirs and/or files: 
+[32.123s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[32.123s] -- Configured cpplint exclude dirs and/or files: 
+[32.130s] -- Added test 'flake8' to check Python code syntax and style conventions
+[32.135s] -- Added test 'lint_cmake' to check CMake code style
+[32.146s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[32.180s] -- Added test 'uncrustify' to check C / C++ code style
+[32.180s] -- Configured uncrustify additional arguments: 
+[32.189s] -- Added test 'xmllint' to check XML markup files
+[32.206s] -- Configuring done
+[32.401s] -- Generating done
+[32.564s] -- Build files have been written to: /mission_planning_ws/build/as2_platform_crazyflie
+[35.203s] Invoked command in '/mission_planning_ws/build/as2_platform_crazyflie' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mission_planning_ws/src/as2_platform_crazyflie -DCMAKE_INSTALL_PREFIX=/mission_planning_ws/install/as2_platform_crazyflie
+[35.332s] Invoking command in '/mission_planning_ws/build/as2_platform_crazyflie': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mission_planning_ws/build/as2_platform_crazyflie -- -j22 -l22
+[35.690s] [  5%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o[0m
+[41.379s] [ 11%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Version.cpp.o[0m
+[41.508s] [ 16%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSBThread.cpp.o[0m
+[43.796s] [ 22%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSB.cpp.o[0m
+[44.544s] [ 27%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyradioThread.cpp.o[0m
+[46.654s] [ 33%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Crazyradio.cpp.o[0m
+[47.485s] [ 38%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBDevice.cpp.o[0m
+[48.293s] [ 44%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Connection.cpp.o[0m
+[54.899s] [ 50%] [32m[1mLinking CXX static library libcrazyflieLinkCpp.a[0m
+[55.142s] [ 50%] Built target crazyflieLinkCpp
+[55.231s] [ 50%] Built target ament_cmake_python_copy_as2_platform_crazyflie
+[55.331s] [ 55%] [32mBuilding CXX object _deps/crazyflie_cpp-build/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o[0m
+[60.599s] [ 61%] [32mBuilding CXX object _deps/crazyflie_cpp-build/CMakeFiles/crazyflie_cpp.dir/src/crtp.cpp.o[0m
+[61.323s] [ 66%] [32m[1mLinking CXX static library libcrazyflie_cpp.a[0m
+[61.424s] [ 66%] Built target crazyflie_cpp
+[62.091s] running egg_info
+[62.092s] creating as2_platform_crazyflie.egg-info
+[62.092s] writing as2_platform_crazyflie.egg-info/PKG-INFO
+[62.093s] writing dependency_links to as2_platform_crazyflie.egg-info/dependency_links.txt
+[62.093s] writing top-level names to as2_platform_crazyflie.egg-info/top_level.txt
+[62.093s] writing manifest file 'as2_platform_crazyflie.egg-info/SOURCES.txt'
+[62.098s] reading manifest file 'as2_platform_crazyflie.egg-info/SOURCES.txt'
+[62.099s] writing manifest file 'as2_platform_crazyflie.egg-info/SOURCES.txt'
+[62.159s] [ 66%] Built target ament_cmake_python_build_as2_platform_crazyflie_egg
+[62.196s] [ 72%] [32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_swarm_node.dir/src/crazyflie_swarm_nodes.cpp.o[0m
+[73.775s] [ 77%] [32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_swarm_node.dir/src/crazyflie_platform.cpp.o[0m
+[96.081s] [ 83%] [32m[1mLinking CXX executable as2_platform_crazyflie_swarm_node[0m
+[97.645s] [ 83%] Built target as2_platform_crazyflie_swarm_node
+[97.675s] [ 88%] [32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_node.dir/src/crazyflie_node.cpp.o[0m
+[104.203s] [ 94%] [32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_node.dir/src/crazyflie_platform.cpp.o[0m
+[116.473s] [100%] [32m[1mLinking CXX executable as2_platform_crazyflie_node[0m
+[117.945s] [100%] Built target as2_platform_crazyflie_node
+[117.965s] Invoked command in '/mission_planning_ws/build/as2_platform_crazyflie' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mission_planning_ws/build/as2_platform_crazyflie -- -j22 -l22
+[117.969s] Invoking command in '/mission_planning_ws/build/as2_platform_crazyflie': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mission_planning_ws/build/as2_platform_crazyflie
+[117.982s] -- Install configuration: ""
+[117.982s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch
+[117.982s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch/crazyflie_aideck_stream_launch.py
+[117.983s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch/crazyflie_swarm_launch.py
+[117.983s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config
+[117.983s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/control_modes.yaml
+[117.984s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/swarm_config_file.yaml
+[117.984s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/camera_calibration.yaml
+[117.985s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/platform_config_file.yaml
+[117.985s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/aideck_config_file.yaml
+[117.986s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_node
+[117.996s] -- Set runtime path of "/mission_planning_ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_node" to ""
+[117.996s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_swarm_node
+[118.005s] -- Set runtime path of "/mission_planning_ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_swarm_node" to ""
+[118.005s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/pythonpath.sh
+[118.005s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/pythonpath.dsv
+[118.006s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.1.0-py3.10.egg-info
+[118.006s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.1.0-py3.10.egg-info/dependency_links.txt
+[118.006s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.1.0-py3.10.egg-info/PKG-INFO
+[118.006s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.1.0-py3.10.egg-info/top_level.txt
+[118.006s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.1.0-py3.10.egg-info/SOURCES.txt
+[118.007s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie
+[118.007s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/__init__.py
+[118.007s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/viewer.py
+[118.070s] Listing '/mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie'...
+[118.070s] Compiling '/mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/__init__.py'...
+[118.071s] Compiling '/mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/viewer.py'...
+[118.077s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/aideck_node.py
+[118.078s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/ament_index/resource_index/package_run_dependencies/as2_platform_crazyflie
+[118.079s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/ament_index/resource_index/parent_prefix_path/as2_platform_crazyflie
+[118.079s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/ament_prefix_path.sh
+[118.079s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/ament_prefix_path.dsv
+[118.080s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/path.sh
+[118.080s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/path.dsv
+[118.080s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.bash
+[118.081s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.sh
+[118.081s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.zsh
+[118.081s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.dsv
+[118.081s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.dsv
+[118.082s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/ament_index/resource_index/packages/as2_platform_crazyflie
+[118.082s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/cmake/as2_platform_crazyflieConfig.cmake
+[118.082s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/cmake/as2_platform_crazyflieConfig-version.cmake
+[118.083s] -- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.xml
+[118.088s] Invoked command in '/mission_planning_ws/build/as2_platform_crazyflie' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mission_planning_ws/build/as2_platform_crazyflie

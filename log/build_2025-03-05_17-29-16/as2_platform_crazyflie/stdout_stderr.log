@@ -1,0 +1,131 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found as2_core: 1.1.2 (/mission_planning_ws/install/as2_core/share/as2_core/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- crazyflie_cpp not found
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /mission_planning_ws/src/as2_platform_crazyflie/include;/mission_planning_ws/src/as2_platform_crazyflie/include/as2_platform_crazyflie
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mission_planning_ws/build/as2_platform_crazyflie
+[  5%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o[0m
+[ 11%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Version.cpp.o[0m
+[ 16%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSBThread.cpp.o[0m
+[ 22%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSB.cpp.o[0m
+[ 27%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyradioThread.cpp.o[0m
+[ 33%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Crazyradio.cpp.o[0m
+[ 38%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBDevice.cpp.o[0m
+[ 44%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Connection.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libcrazyflieLinkCpp.a[0m
+[ 50%] Built target crazyflieLinkCpp
+[ 50%] Built target ament_cmake_python_copy_as2_platform_crazyflie
+[ 55%] [32mBuilding CXX object _deps/crazyflie_cpp-build/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o[0m
+[ 61%] [32mBuilding CXX object _deps/crazyflie_cpp-build/CMakeFiles/crazyflie_cpp.dir/src/crtp.cpp.o[0m
+[ 66%] [32m[1mLinking CXX static library libcrazyflie_cpp.a[0m
+[ 66%] Built target crazyflie_cpp
+running egg_info
+creating as2_platform_crazyflie.egg-info
+writing as2_platform_crazyflie.egg-info/PKG-INFO
+writing dependency_links to as2_platform_crazyflie.egg-info/dependency_links.txt
+writing top-level names to as2_platform_crazyflie.egg-info/top_level.txt
+writing manifest file 'as2_platform_crazyflie.egg-info/SOURCES.txt'
+reading manifest file 'as2_platform_crazyflie.egg-info/SOURCES.txt'
+writing manifest file 'as2_platform_crazyflie.egg-info/SOURCES.txt'
+[ 66%] Built target ament_cmake_python_build_as2_platform_crazyflie_egg
+[ 72%] [32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_swarm_node.dir/src/crazyflie_swarm_nodes.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_swarm_node.dir/src/crazyflie_platform.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable as2_platform_crazyflie_swarm_node[0m
+[ 83%] Built target as2_platform_crazyflie_swarm_node
+[ 88%] [32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_node.dir/src/crazyflie_node.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_node.dir/src/crazyflie_platform.cpp.o[0m
+[100%] [32m[1mLinking CXX executable as2_platform_crazyflie_node[0m
+[100%] Built target as2_platform_crazyflie_node
+-- Install configuration: ""
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch/crazyflie_aideck_stream_launch.py
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch/crazyflie_swarm_launch.py
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/control_modes.yaml
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/swarm_config_file.yaml
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/camera_calibration.yaml
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/platform_config_file.yaml
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/aideck_config_file.yaml
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_node
+-- Set runtime path of "/mission_planning_ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_node" to ""
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_swarm_node
+-- Set runtime path of "/mission_planning_ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_swarm_node" to ""
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/pythonpath.sh
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/pythonpath.dsv
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.1.0-py3.10.egg-info
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.1.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.1.0-py3.10.egg-info/PKG-INFO
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.1.0-py3.10.egg-info/top_level.txt
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.1.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/__init__.py
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/viewer.py
+Listing '/mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie'...
+Compiling '/mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/__init__.py'...
+Compiling '/mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/viewer.py'...
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/aideck_node.py
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/ament_index/resource_index/package_run_dependencies/as2_platform_crazyflie
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/ament_index/resource_index/parent_prefix_path/as2_platform_crazyflie
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/ament_prefix_path.sh
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/ament_prefix_path.dsv
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/path.sh
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/path.dsv
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.bash
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.sh
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.zsh
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.dsv
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.dsv
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/ament_index/resource_index/packages/as2_platform_crazyflie
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/cmake/as2_platform_crazyflieConfig.cmake
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/cmake/as2_platform_crazyflieConfig-version.cmake
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.xml

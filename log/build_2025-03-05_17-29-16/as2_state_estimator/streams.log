@@ -1,0 +1,149 @@
+[0.032s] Invoking command in '/mission_planning_ws/build/as2_state_estimator': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/mocap4r2_msgs:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/mocap4r2_msgs:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/mocap4r2_msgs/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mission_planning_ws/src/aerostack2/as2_state_estimator -DCMAKE_INSTALL_PREFIX=/mission_planning_ws/install/as2_state_estimator
+[0.084s] -- The C compiler identification is GNU 11.4.0
+[0.142s] -- The CXX compiler identification is GNU 11.4.0
+[0.150s] -- Detecting C compiler ABI info
+[0.225s] -- Detecting C compiler ABI info - done
+[0.231s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.231s] -- Detecting C compile features
+[0.232s] -- Detecting C compile features - done
+[0.235s] -- Detecting CXX compiler ABI info
+[0.330s] -- Detecting CXX compiler ABI info - done
+[0.338s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.338s] -- Detecting CXX compile features
+[0.339s] -- Detecting CXX compile features - done
+[0.350s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.548s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.779s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.951s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.977s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.004s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.035s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.070s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.202s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.216s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.394s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.445s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.516s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.547s] -- Looking for pthread.h
+[1.635s] -- Looking for pthread.h - found
+[1.636s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.740s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.741s] -- Found Threads: TRUE  
+[1.849s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.924s] -- Found as2_core: 1.1.2 (/mission_planning_ws/install/as2_core/share/as2_core/cmake)
+[2.182s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.184s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.184s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.510s] -- Found mocap4r2_msgs: 0.0.3 (/mission_planning_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[2.548s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.557s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.580s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.790s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.816s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.829s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.831s] -- Configured cppcheck include dirs: /mission_planning_ws/src/aerostack2/as2_state_estimator/include;/mission_planning_ws/src/aerostack2/as2_state_estimator/include/as2_state_estimator;$<BUILD_INTERFACE:/mission_planning_ws/src/aerostack2/as2_state_estimator/include>
+[2.831s] -- Configured cppcheck exclude dirs and/or files: 
+[2.846s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.846s] -- Configured cpplint exclude dirs and/or files: 
+[2.849s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.854s] -- Added test 'lint_cmake' to check CMake code style
+[2.857s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.871s] -- Added test 'uncrustify' to check C / C++ code style
+[2.871s] -- Configured uncrustify additional arguments: 
+[2.876s] -- Added test 'xmllint' to check XML markup files
+[2.881s] -- Configuring done
+[3.056s] -- Generating done
+[3.096s] -- Build files have been written to: /mission_planning_ws/build/as2_state_estimator
+[3.136s] Invoked command in '/mission_planning_ws/build/as2_state_estimator' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/mocap4r2_msgs:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/mocap4r2_msgs:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/mocap4r2_msgs/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /mission_planning_ws/src/aerostack2/as2_state_estimator -DCMAKE_INSTALL_PREFIX=/mission_planning_ws/install/as2_state_estimator
+[3.142s] Invoking command in '/mission_planning_ws/build/as2_state_estimator': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/mocap4r2_msgs:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/mocap4r2_msgs:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/mocap4r2_msgs/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mission_planning_ws/build/as2_state_estimator -- -j22 -l22
+[3.778s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.985s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.003s] [ 15%] [32mBuilding CXX object CMakeFiles/as2_state_estimator.dir/src/as2_state_estimator.cpp.o[0m
+[4.032s] [ 21%] [32m[1mLinking CXX shared library libas2_state_estimator_plugin_base.so[0m
+[5.161s] [ 21%] Built target as2_state_estimator_plugin_base
+[11.738s] [ 26%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[12.122s] [ 26%] Built target gtest_main
+[50.912s] [ 31%] [32m[1mLinking CXX static library libgtest.a[0m
+[51.163s] [ 31%] Built target gtest
+[66.530s] [ 36%] [32m[1mLinking CXX shared library libas2_state_estimator.so[0m
+[66.826s] [ 36%] Built target as2_state_estimator
+[66.859s] [ 42%] [32mBuilding CXX object CMakeFiles/as2_state_estimator_node.dir/src/as2_state_estimator_node.cpp.o[0m
+[75.040s] [ 47%] [32m[1mLinking CXX executable as2_state_estimator_node[0m
+[75.289s] [ 47%] Built target as2_state_estimator_node
+[75.345s] [ 52%] [32mBuilding CXX object tests/CMakeFiles/as2_state_estimator_as2_state_estimator_gtest.dir/as2_state_estimator_gtest.cpp.o[0m
+[84.244s] [ 57%] [32m[1mLinking CXX executable as2_state_estimator_as2_state_estimator_gtest[0m
+[84.460s] [ 57%] Built target as2_state_estimator_as2_state_estimator_gtest
+[84.493s] [ 63%] [32mBuilding CXX object plugins/mocap_pose/CMakeFiles/mocap_pose.dir/src/mocap_pose.cpp.o[0m
+[96.158s] [ 68%] [32m[1mLinking CXX shared library libmocap_pose.so[0m
+[96.380s] [ 68%] Built target mocap_pose
+[96.415s] [ 73%] [32mBuilding CXX object plugins/ground_truth/CMakeFiles/ground_truth.dir/src/ground_truth.cpp.o[0m
+[117.174s] [ 78%] [32m[1mLinking CXX shared library libground_truth.so[0m
+[117.597s] [ 78%] Built target ground_truth
+[117.649s] [ 84%] [32mBuilding CXX object plugins/mocap_pose/tests/CMakeFiles/as2_state_estimator_mocap_gtest.dir/mocap_gtest.cpp.o[0m
+[117.652s] [ 89%] [32mBuilding CXX object plugins/raw_odometry/CMakeFiles/raw_odometry.dir/src/raw_odometry.cpp.o[0m
+[130.700s] [ 94%] [32m[1mLinking CXX executable as2_state_estimator_mocap_gtest[0m
+[131.058s] [ 94%] Built target as2_state_estimator_mocap_gtest
+[146.282s] [100%] [32m[1mLinking CXX shared library libraw_odometry.so[0m
+[146.655s] [100%] Built target raw_odometry
+[146.721s] Invoked command in '/mission_planning_ws/build/as2_state_estimator' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/mocap4r2_msgs:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/mocap4r2_msgs:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/mocap4r2_msgs/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mission_planning_ws/build/as2_state_estimator -- -j22 -l22
+[146.724s] Invoking command in '/mission_planning_ws/build/as2_state_estimator': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/mocap4r2_msgs:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/mocap4r2_msgs:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/mocap4r2_msgs/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mission_planning_ws/build/as2_state_estimator
+[146.739s] -- Install configuration: "Release"
+[146.739s] -- Installing: /mission_planning_ws/install/as2_state_estimator/lib/libas2_state_estimator.so
+[146.741s] -- Set runtime path of "/mission_planning_ws/install/as2_state_estimator/lib/libas2_state_estimator.so" to ""
+[146.742s] -- Installing: /mission_planning_ws/install/as2_state_estimator/lib/libas2_state_estimator_plugin_base.so
+[146.742s] -- Set runtime path of "/mission_planning_ws/install/as2_state_estimator/lib/libas2_state_estimator_plugin_base.so" to ""
+[146.742s] -- Installing: /mission_planning_ws/install/as2_state_estimator/lib/as2_state_estimator/as2_state_estimator_node
+[146.742s] -- Set runtime path of "/mission_planning_ws/install/as2_state_estimator/lib/as2_state_estimator/as2_state_estimator_node" to ""
+[146.743s] -- Installing: /mission_planning_ws/install/as2_state_estimator/include
+[146.743s] -- Installing: /mission_planning_ws/install/as2_state_estimator/include/as2_state_estimator
+[146.743s] -- Installing: /mission_planning_ws/install/as2_state_estimator/include/as2_state_estimator/as2_state_estimator.hpp
+[146.743s] -- Installing: /mission_planning_ws/install/as2_state_estimator/include/as2_state_estimator/plugin_base.hpp
+[146.743s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/plugins.xml
+[146.744s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/plugins/raw_odometry/config
+[146.744s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/plugins/raw_odometry/config/plugin_default.yaml
+[146.745s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/plugins/ground_truth/config
+[146.746s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/plugins/ground_truth/config/plugin_default.yaml
+[146.746s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/plugins/mocap_pose/config
+[146.746s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/plugins/mocap_pose/config/plugin_default.yaml
+[146.747s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/launch
+[146.747s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/launch/raw_odometry_state_estimator.launch.py
+[146.747s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/launch/ground_truth_state_estimator.launch.py
+[146.748s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/launch/mocap_pose_state_estimator.launch.py
+[146.748s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/launch/state_estimator_launch.py
+[146.749s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/config
+[146.749s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/config/state_estimator_default.yaml
+[146.750s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/ament_index/resource_index/package_run_dependencies/as2_state_estimator
+[146.751s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/ament_index/resource_index/parent_prefix_path/as2_state_estimator
+[146.752s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/environment/ament_prefix_path.sh
+[146.753s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/environment/ament_prefix_path.dsv
+[146.754s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/environment/path.sh
+[146.754s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/environment/path.dsv
+[146.755s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/local_setup.bash
+[146.756s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/local_setup.sh
+[146.756s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/local_setup.zsh
+[146.757s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/local_setup.dsv
+[146.757s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/package.dsv
+[146.758s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/ament_index/resource_index/packages/as2_state_estimator
+[146.758s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/ament_index/resource_index/as2_state_estimator__pluginlib__plugin/as2_state_estimator
+[146.759s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/cmake/as2_state_estimatorConfig.cmake
+[146.760s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/cmake/as2_state_estimatorConfig-version.cmake
+[146.761s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/package.xml
+[146.762s] -- Up-to-date: /mission_planning_ws/install/as2_state_estimator/include
+[146.763s] -- Installing: /mission_planning_ws/install/as2_state_estimator/include/raw_odometry.hpp
+[146.764s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.sh
+[146.765s] -- Installing: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.dsv
+[146.766s] -- Installing: /mission_planning_ws/install/as2_state_estimator/lib/libraw_odometry.so
+[146.773s] -- Set runtime path of "/mission_planning_ws/install/as2_state_estimator/lib/libraw_odometry.so" to ""
+[146.774s] -- Up-to-date: /mission_planning_ws/install/as2_state_estimator/include
+[146.774s] -- Installing: /mission_planning_ws/install/as2_state_estimator/include/ground_truth.hpp
+[146.774s] -- Up-to-date: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.sh
+[146.775s] -- Up-to-date: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.dsv
+[146.775s] -- Installing: /mission_planning_ws/install/as2_state_estimator/lib/libground_truth.so
+[146.778s] -- Set runtime path of "/mission_planning_ws/install/as2_state_estimator/lib/libground_truth.so" to ""
+[146.779s] -- Up-to-date: /mission_planning_ws/install/as2_state_estimator/include
+[146.780s] -- Installing: /mission_planning_ws/install/as2_state_estimator/include/mocap_pose.hpp
+[146.780s] -- Up-to-date: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.sh
+[146.780s] -- Up-to-date: /mission_planning_ws/install/as2_state_estimator/share/as2_state_estimator/environment/library_path.dsv
+[146.780s] -- Installing: /mission_planning_ws/install/as2_state_estimator/lib/libmocap_pose.so
+[146.781s] -- Set runtime path of "/mission_planning_ws/install/as2_state_estimator/lib/libmocap_pose.so" to ""
+[146.786s] Invoked command in '/mission_planning_ws/build/as2_state_estimator' returned '0': AMENT_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/mocap4r2_msgs:/mission_planning_ws/install/as2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mission_planning_ws/install/as2_core:/mission_planning_ws/install/mocap4r2_msgs:/mission_planning_ws/install/as2_msgs:/root/project_gazebo_ws/install/aerostack2:/root/project_gazebo_ws/install/as2_usb_camera_interface:/root/project_gazebo_ws/install/as2_state_estimator:/root/project_gazebo_ws/install/as2_rviz_plugins:/root/project_gazebo_ws/install/as2_realsense_interface:/root/project_gazebo_ws/install/as2_platform_multirotor_simulator:/root/project_gazebo_ws/install/as2_platform_gazebo:/root/project_gazebo_ws/install/as2_motion_controller:/root/project_gazebo_ws/install/as2_behaviors_trajectory_generation:/root/project_gazebo_ws/install/as2_behaviors_motion:/root/project_gazebo_ws/install/as2_motion_reference_handlers:/root/project_gazebo_ws/install/as2_map_server:/root/project_gazebo_ws/install/as2_geozones:/root/project_gazebo_ws/install/as2_gazebo_assets:/root/project_gazebo_ws/install/as2_external_object_to_tf:/root/project_gazebo_ws/install/as2_behaviors_platform:/root/project_gazebo_ws/install/as2_behaviors_perception:/root/project_gazebo_ws/install/as2_behaviors_path_planning:/root/project_gazebo_ws/install/as2_behavior_tree:/root/project_gazebo_ws/install/as2_behavior:/root/project_gazebo_ws/install/as2_alphanumeric_viewer:/root/project_gazebo_ws/install/as2_core:/root/project_gazebo_ws/install/as2_msgs:/root/project_gazebo_ws/install/as2_cli:/root/project_gazebo_ws/install/as2_visualization:/root/project_gazebo_ws/install/as2_keyboard_teleoperation:/root/project_gazebo_ws/install/as2_python_api:/opt/ros/humble LD_LIBRARY_PATH=/mission_planning_ws/install/as2_core/lib:/mission_planning_ws/install/mocap4r2_msgs/lib:/mission_planning_ws/install/as2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mission_planning_ws/install/as2_core/local/lib/python3.10/dist-packages:/mission_planning_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/mission_planning_ws/install/as2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mission_planning_ws/build/as2_state_estimator

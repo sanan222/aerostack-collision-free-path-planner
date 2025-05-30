@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-668d04962238751dcfc6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "as2_gazebo_assets",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MulticopterINDIControl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MulticopterINDIControl-ca226409215ae6d10abe.json",
+					"name" : "MulticopterINDIControl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acro_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acro_bridge-67a941cb792a0063eaa7.json",
+					"name" : "acro_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_as2_gazebo_assets_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_as2_gazebo_assets_egg-d52463a5c9a89166d70c.json",
+					"name" : "ament_cmake_python_build_as2_gazebo_assets_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_as2_gazebo_assets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_as2_gazebo_assets-4eeb08690fd04b0b4ac2.json",
+					"name" : "ament_cmake_python_copy_as2_gazebo_assets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_gazebo_assets_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_gazebo_assets_uninstall-3b2b6ae8232bdde4e75b.json",
+					"name" : "as2_gazebo_assets_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "azimuth_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-azimuth_bridge-417a5425dc08ac0254d7.json",
+					"name" : "azimuth_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gimbal_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gimbal_bridge-56d21f5385215f89b05f.json",
+					"name" : "gimbal_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_bridge-1b64a8158cb070bf3908.json",
+					"name" : "gps_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ground_truth_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ground_truth_bridge-6bc436751de1a9588bd9.json",
+					"name" : "ground_truth_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "object_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-object_tf_broadcaster-ab78ff27e95901aecb96.json",
+					"name" : "object_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "set_entity_pose_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-set_entity_pose_bridge-2099c809f083c0f1752f.json",
+					"name" : "set_entity_pose_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-85649c69066f90cd675f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mission_planning_ws/src/build/as2_gazebo_assets",
+		"source" : "/mission_planning_ws/src/aerostack2/as2_simulation_assets/as2_gazebo_assets"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

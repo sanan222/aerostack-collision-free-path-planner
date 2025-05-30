@@ -1,0 +1,51 @@
+[  0%] Built target ament_cmake_python_copy_as2_platform_crazyflie
+[ 50%] Built target crazyflieLinkCpp
+[ 66%] Built target crazyflie_cpp
+[ 83%] Built target as2_platform_crazyflie_node
+[100%] Built target as2_platform_crazyflie_swarm_node
+running egg_info
+writing as2_platform_crazyflie.egg-info/PKG-INFO
+writing dependency_links to as2_platform_crazyflie.egg-info/dependency_links.txt
+writing top-level names to as2_platform_crazyflie.egg-info/top_level.txt
+reading manifest file 'as2_platform_crazyflie.egg-info/SOURCES.txt'
+writing manifest file 'as2_platform_crazyflie.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_as2_platform_crazyflie_egg
+-- Install configuration: ""
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch/crazyflie_aideck_stream_launch.py
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch/crazyflie_swarm_launch.py
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/control_modes.yaml
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/swarm_config_file.yaml
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/camera_calibration.yaml
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/platform_config_file.yaml
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/aideck_config_file.yaml
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_node
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_swarm_node
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/pythonpath.sh
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/pythonpath.dsv
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.1.0-py3.10.egg-info
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.1.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.1.0-py3.10.egg-info/PKG-INFO
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.1.0-py3.10.egg-info/top_level.txt
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.1.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/__init__.py
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/viewer.py
+Listing '/mission_planning_ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie'...
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/aideck_node.py
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/ament_index/resource_index/package_run_dependencies/as2_platform_crazyflie
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/ament_index/resource_index/parent_prefix_path/as2_platform_crazyflie
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/ament_prefix_path.sh
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/ament_prefix_path.dsv
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/path.sh
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/path.dsv
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.bash
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.sh
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.zsh
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.dsv
+-- Installing: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.dsv
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/ament_index/resource_index/packages/as2_platform_crazyflie
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/cmake/as2_platform_crazyflieConfig.cmake
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/cmake/as2_platform_crazyflieConfig-version.cmake
+-- Up-to-date: /mission_planning_ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.xml

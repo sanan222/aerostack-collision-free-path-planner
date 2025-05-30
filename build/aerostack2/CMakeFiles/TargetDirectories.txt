@@ -1,0 +1,9 @@
+/mission_planning_ws/build/aerostack2/CMakeFiles/uninstall.dir
+/mission_planning_ws/build/aerostack2/CMakeFiles/aerostack2_uninstall.dir
+/mission_planning_ws/build/aerostack2/CMakeFiles/test.dir
+/mission_planning_ws/build/aerostack2/CMakeFiles/edit_cache.dir
+/mission_planning_ws/build/aerostack2/CMakeFiles/rebuild_cache.dir
+/mission_planning_ws/build/aerostack2/CMakeFiles/list_install_components.dir
+/mission_planning_ws/build/aerostack2/CMakeFiles/install.dir
+/mission_planning_ws/build/aerostack2/CMakeFiles/install/local.dir
+/mission_planning_ws/build/aerostack2/CMakeFiles/install/strip.dir

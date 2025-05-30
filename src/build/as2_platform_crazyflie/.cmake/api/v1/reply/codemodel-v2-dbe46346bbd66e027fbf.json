@@ -1,0 +1,190 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ef7fb18ce06c2a854d5b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						7
+					]
+				},
+				{
+					"build" : "_deps/crazyflie_cpp-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-_deps.crazyflie_cpp-build-a680b0f5eaff589c56e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/mission_planning_ws/src/build/as2_platform_crazyflie/_deps/crazyflie_cpp-src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/crazyflie_cpp-build/crazyflie-link-cpp",
+					"jsonFile" : "directory-_deps.crazyflie_cpp-build.crazyflie-link-cpp-72e3c08c43b2856a13f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/mission_planning_ws/src/build/as2_platform_crazyflie/_deps/crazyflie_cpp-src/crazyflie-link-cpp",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "as2_platform_crazyflie",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						7
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "crazyflie_cpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "crazyflie-link-cpp",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_as2_platform_crazyflie_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_as2_platform_crazyflie_egg-1371d41430084f0d980d.json",
+					"name" : "ament_cmake_python_build_as2_platform_crazyflie_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_as2_platform_crazyflie::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_as2_platform_crazyflie-90ba5780bcba41f9b6de.json",
+					"name" : "ament_cmake_python_copy_as2_platform_crazyflie",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_platform_crazyflie_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_platform_crazyflie_node-6b1721f5a37d7eaf0b11.json",
+					"name" : "as2_platform_crazyflie_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_platform_crazyflie_swarm_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_platform_crazyflie_swarm_node-a17ffcbd9ab49ad87387.json",
+					"name" : "as2_platform_crazyflie_swarm_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "as2_platform_crazyflie_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-as2_platform_crazyflie_uninstall-732eeccfd050daaab0a3.json",
+					"name" : "as2_platform_crazyflie_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "crazyflieLinkCpp::@3627050b13fb23d7e2b1",
+					"jsonFile" : "target-crazyflieLinkCpp-8393ef8fb968cd228005.json",
+					"name" : "crazyflieLinkCpp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "crazyflie_cpp::@432260ff66066cb546be",
+					"jsonFile" : "target-crazyflie_cpp-d0968d54064f53431cb9.json",
+					"name" : "crazyflie_cpp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-850da1e828ada6e0d56c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mission_planning_ws/src/build/as2_platform_crazyflie",
+		"source" : "/mission_planning_ws/src/as2_platform_crazyflie"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
