@@ -65,8 +65,8 @@ Implements TSP solvers:
 ## Results Summary
 
 <p align="center">
-  <img src="images/NN_results.png" alt="NN Results" width="400" height="200"/>
-  <img src="images/AC_results.png" alt="AC Results" width="400" height="200"/>
+  <img src="images/NN_results.png" alt="NN Results" width="400" height="400"/>
+  <img src="images/AC_results.png" alt="AC Results" width="400" height="400"/>
 </p>
 
 
